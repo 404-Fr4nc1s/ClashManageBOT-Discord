@@ -26,4 +26,8 @@ npm install
 ## Utiliser le Bot Discord
 
 - Dans le fichier ```.env```, rajouter votre clé API Supercell (https://developer.clashofclans.com/#/), et ajouter votre TAG_DE_VOTRE_CLAN.
-- Démarrer le Bot : ```node main.js```
+- Démarrer le Bot : 
+
+```bash
+node main.js
+```
