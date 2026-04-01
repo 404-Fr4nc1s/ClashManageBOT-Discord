@@ -1,0 +1,525 @@
+/* ==================== HEADER ==================== */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header-subtitle {
+  font-size: 1.1rem;
+  color: #999;
+  font-weight: 400;
+}
+
+/* ==================== CONTENT HEIGHT CONTROL ==================== */
+.content.logContainer {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.content.logContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.content.logContainer::-webkit-scrollbar-track {
+  background: #2b2b2b;
+  border-radius: 5px;
+}
+
+.content.logContainer::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 5px;
+  border: 2px solid #1e1e1e;
+}
+
+.content.logContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+/* ==================== LOGS CONTAINER ==================== */
+.logsContainer {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 25px;
+  height: calc(100vh - 350px);
+  min-height: 500px;
+}
+
+/* ==================== LEFT SIDEBAR ==================== */
+.logsSidebar {
+  background: linear-gradient(145deg, #2a2a2a, #252525);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border: 1px solid #333;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.logsSidebar h2 {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #333;
+}
+
+.logsSidebar h3 {
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 25px 0 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logsSidebar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.logsSidebar::-webkit-scrollbar-track {
+  background: #2b2b2b;
+  border-radius: 5px;
+}
+
+.logsSidebar::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 5px;
+  border: 2px solid #252525;
+}
+
+.logsSidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+/* ==================== LOG SELECTORS ==================== */
+.logSelectorList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logSelector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #ccc;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.logSelector:hover {
+  background: #282828;
+  border-color: #fff;
+  color: #fff;
+  transform: translateX(5px);
+}
+
+.logSelector.active {
+  border-color: #fff;
+  color: #fff;
+}
+
+.logSelector i {
+  font-size: 1.2rem;
+  min-width: 20px;
+  text-align: center;
+}
+
+/* ==================== FILTER SECTION ==================== */
+.filter-section {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 2px solid #333;
+}
+
+.filter-input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #1e1e1e;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.filter-input-group:focus-within {
+  border-color: #fff;
+}
+
+.filter-input-group i {
+  color: #fff;
+}
+
+.filter-input-group input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.filter-input-group input::placeholder {
+  color: #666;
+}
+
+.filter-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1e1e1e;
+  color: #fff;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.filter-btn:hover {
+  border-color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ==================== RIGHT PANEL - LOGS DISPLAY ==================== */
+.logsDisplay {
+  background: linear-gradient(145deg, #2a2a2a, #252525);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.logs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #333;
+  flex-shrink: 0;
+}
+
+.logs-header h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.logs-count {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: #1e1e1e;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ==================== LOGS OUTPUT ==================== */
+.logsOutput {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-right: 5px;
+}
+
+.logsOutput::-webkit-scrollbar {
+  width: 10px;
+}
+
+.logsOutput::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  border-radius: 5px;
+}
+
+.logsOutput::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.logsOutput::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* ==================== PLACEHOLDER ==================== */
+.placeholder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+.placeholder-container i {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.placeholder {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.placeholder-subtitle {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* ==================== LOG ENTRIES ==================== */
+.logEntry {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 18px;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+  line-height: 1.6;
+  color: #ccc;
+  animation: slideIn 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.logEntry:hover {
+  background: #252525;
+  border-color: #444;
+  transform: translateX(3px);
+}
+
+.logEntry strong {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  word-break: break-word;
+}
+
+.logEntry em {
+  color: #999;
+  font-style: italic;
+}
+
+.logEntry br {
+  margin-bottom: 5px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==================== LOADING STATE ==================== */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 20px;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 5px solid #333;
+  border-top: 5px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+  .logsContainer {
+    grid-template-columns: 280px 1fr;
+    max-height: calc(100vh - 280px);
+  }
+
+  .logsSidebar {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+
+  .content.logContainer {
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  .logsContainer {
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: auto;
+  }
+
+  .logsSidebar {
+    max-height: 400px;
+    padding: 20px;
+  }
+
+  .logsDisplay {
+    height: 500px;
+    max-height: 500px;
+    padding: 20px;
+  }
+
+  .logs-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .logs-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .logs-count {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+
+  .logEntry {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .logEntry strong {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.6rem;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .logsContainer {
+    gap: 15px;
+    height: auto;
+  }
+
+  .logsSidebar {
+    padding: 15px;
+    max-height: 350px;
+  }
+
+  .logsSidebar h2 {
+    font-size: 1.1rem;
+  }
+
+  .logsSidebar h3 {
+    font-size: 1rem;
+  }
+
+  .logSelector {
+    padding: 12px 14px;
+    font-size: 0.85rem;
+  }
+
+  .logSelector i {
+    font-size: 1rem;
+  }
+
+  .logsDisplay {
+    padding: 15px;
+    height: 450px;
+    max-height: 450px;
+  }
+
+  .logs-header h2 {
+    font-size: 1rem;
+  }
+
+  .logEntry {
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+
+  .logEntry strong {
+    font-size: 0.95rem;
+  }
+
+  .placeholder-container i {
+    font-size: 3rem;
+  }
+
+  .placeholder {
+    font-size: 1.1rem;
+  }
+
+  .placeholder-subtitle {
+    font-size: 0.9rem;
+  }
+}

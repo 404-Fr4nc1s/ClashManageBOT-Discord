@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> - ClaraClash</title>
+    <link rel="stylesheet" href="../../css/index.css" />
+    <link rel="stylesheet" href="../../css/channelsettings.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Topbar -->
+      <aside class="topbar">
+        <div class="topbar-container">
+          <div class="brand">
+            <img
+              src="<%= botAvatarUrl %>"
+              alt="Bot Avatar"
+              class="bot-avatar"
+            />
+            <h2 class="bot-name">- <%= botName %></h2>
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="/">
+              <i class="fa-solid fa-house"></i> Accueil
+            </a>
+            <a href="/stats">
+              <i class="fa-solid fa-chart-column"></i> Stats
+            </a>
+            <a href="/gdc">
+              <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+            </a>
+            <a href="/admin">
+              <i class="fa-solid fa-user-shield"></i> Chefs
+            </a>
+            <a href="/settings" class="active">
+              <i class="fa-solid fa-gear"></i> Settings
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content">
+        <!-- Header -->
+        <div class="header">
+          <h1><i class="fa-solid fa-sliders"></i> Paramètres des canaux</h1>
+          <p class="header-subtitle">Configurez les salons de logs pour chaque événement</p>
+        </div>
+
+        <!-- Channel Settings Grid -->
+        <div class="containerChannel">
+          
+          <!-- Message Deleted -->
+          <div class="channelCard">
+            <div class="card-header">
+              <div class="card-icon delete">
+                <i class="fa-solid fa-trash"></i>
+              </div>
+              <h2 class="card-title">Message supprimé</h2>
+            </div>
+            <div class="card-body">
+              <label for="messageDelete">ID du salon Discord :</label>
+              <div class="input-group">
+                <i class="fa-solid fa-hashtag"></i>
+                <input
+                  type="text"
+                  placeholder="ID du salon..."
+                  class="inputChannel"
+                  id="messageDelete"
+                />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-validate">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="btn-cancel">
+                <i class="fa-solid fa-xmark"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <!-- Message Updated -->
+          <div class="channelCard">
+            <div class="card-header">
+              <div class="card-icon update">
+                <i class="fa-solid fa-pen"></i>
+              </div>
+              <h2 class="card-title">Message modifié</h2>
+            </div>
+            <div class="card-body">
+              <label for="messageUpdate">ID du salon Discord :</label>
+              <div class="input-group">
+                <i class="fa-solid fa-hashtag"></i>
+                <input
+                  type="text"
+                  placeholder="ID du salon..."
+                  class="inputChannel"
+                  id="messageUpdate"
+                />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-validate">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="btn-cancel">
+                <i class="fa-solid fa-xmark"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <!-- Role Update -->
+          <div class="channelCard">
+            <div class="card-header">
+              <div class="card-icon role">
+                <i class="fa-solid fa-user-tag"></i>
+              </div>
+              <h2 class="card-title">Rôle modifié</h2>
+            </div>
+            <div class="card-body">
+              <label for="roleUpdate">ID du salon Discord :</label>
+              <div class="input-group">
+                <i class="fa-solid fa-hashtag"></i>
+                <input
+                  type="text"
+                  placeholder="ID du salon..."
+                  class="inputChannel"
+                  id="roleUpdate"
+                />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-validate">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="btn-cancel">
+                <i class="fa-solid fa-xmark"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <!-- Bot Error -->
+          <div class="channelCard">
+            <div class="card-header">
+              <div class="card-icon error">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+              </div>
+              <h2 class="card-title">Erreur du Bot</h2>
+            </div>
+            <div class="card-body">
+              <label for="botError">ID du salon Discord :</label>
+              <div class="input-group">
+                <i class="fa-solid fa-hashtag"></i>
+                <input
+                  type="text"
+                  placeholder="ID du salon..."
+                  class="inputChannel"
+                  id="botError"
+                />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-validate">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="btn-cancel">
+                <i class="fa-solid fa-xmark"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <!-- Anti Spam -->
+          <div class="channelCard">
+            <div class="card-header">
+              <div class="card-icon spam">
+                <i class="fa-solid fa-ban"></i>
+              </div>
+              <h2 class="card-title">Anti Spam</h2>
+            </div>
+            <div class="card-body">
+              <label for="antiSpam">ID du salon Discord :</label>
+              <div class="input-group">
+                <i class="fa-solid fa-hashtag"></i>
+                <input
+                  type="text"
+                  placeholder="ID du salon..."
+                  class="inputChannel"
+                  id="antiSpam"
+                />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-validate">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="btn-cancel">
+                <i class="fa-solid fa-xmark"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <!-- Anti Link -->
+          <div class="channelCard">
+            <div class="card-header">
+              <div class="card-icon link">
+                <i class="fa-solid fa-link-slash"></i>
+              </div>
+              <h2 class="card-title">Anti Link</h2>
+            </div>
+            <div class="card-body">
+              <label for="automodLink">ID du salon Discord :</label>
+              <div class="input-group">
+                <i class="fa-solid fa-hashtag"></i>
+                <input
+                  type="text"
+                  placeholder="ID du salon..."
+                  class="inputChannel"
+                  id="automodLink"
+                />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-validate">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="btn-cancel">
+                <i class="fa-solid fa-xmark"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <!-- Ban Word -->
+          <div class="channelCard">
+            <div class="card-header">
+              <div class="card-icon ban">
+                <i class="fa-solid fa-volume-xmark"></i>
+              </div>
+              <h2 class="card-title">Mots interdits</h2>
+            </div>
+            <div class="card-body">
+              <label for="banWord">ID du salon Discord :</label>
+              <div class="input-group">
+                <i class="fa-solid fa-hashtag"></i>
+                <input
+                  type="text"
+                  placeholder="ID du salon..."
+                  class="inputChannel"
+                  id="banWord"
+                />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-validate">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="btn-cancel">
+                <i class="fa-solid fa-xmark"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+
+    <script src="../js/channelsettings.js"></script>
+    <script src="../js/hamburger.js"></script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> - ClaraClash</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Topbar -->
+      <aside class="topbar">
+        <div class="topbar-container">
+          <div class="brand">
+            <img
+              src="<%= botAvatarUrl %>"
+              alt="Bot Avatar"
+              class="bot-avatar"
+            />
+            <h2 class="bot-name">- <%= botName %></h2>
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="/">
+              <i class="fa-solid fa-house"></i> Accueil
+            </a>
+            <a href="/stats">
+              <i class="fa-solid fa-chart-column"></i> Stats
+            </a>
+            <a href="/gdc">
+              <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+            </a>
+            <a href="/admin" class="active">
+              <i class="fa-solid fa-user-shield"></i> Chefs
+            </a>
+            <a href="/settings">
+              <i class="fa-solid fa-gear"></i> Settings
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content">
+        <!-- Header -->
+        <div class="header">
+          <h1>👑 Administration - Chefs</h1>
+          <p class="header-subtitle">Gérez les paramètres et les fonctionnalités du clan</p>
+        </div>
+
+        <!-- Admin Grid -->
+        <div class="admin-grid">
+          <!-- Card GDC/LDC -->
+          <div class="admin-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="card-content">
+              <h2>Gérer la GDC / LDC</h2>
+              <p>Accédez à la page de gestion des Guerres de Clan et Ligues de Clan.</p>
+              <button
+                class="admin-btn secondary"
+                onclick="window.location.href='/admin-gdc'"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+                Ouvrir la page
+              </button>
+            </div>
+          </div>
+
+          <!-- Card Membres -->
+          <div class="admin-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-content">
+              <h2>Gestion des Membres</h2>
+              <p>Gérez les membres du clan, leurs rôles et leurs permissions.</p>
+              <button
+                class="admin-btn secondary"
+                onclick="alert('Fonctionnalité à venir')"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+                Gérer les membres
+              </button>
+            </div>
+          </div>
+
+          <!-- Card Statistiques -->
+          <div class="admin-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="card-content">
+              <h2>Rapports & Statistiques</h2>
+              <p>Consultez les rapports détaillés et les statistiques du clan.</p>
+              <button
+                class="admin-btn secondary"
+                onclick="window.location.href='/stats'"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+                Voir les stats
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+
+    <script src="../js/hamburger.js"></script>
+  </body>
+</html>

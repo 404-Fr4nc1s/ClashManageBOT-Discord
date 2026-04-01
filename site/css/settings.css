@@ -1,0 +1,119 @@
+/* --- WRAPPER GLOBAL --- */
+.settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* --- BARRE DE BOUTONS --- */
+.settings-header-bar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* --- GRILLE DES CARDS --- */
+.settings-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  width: 47%;
+  margin-top: 20px;
+}
+
+/* --- GRID DES CHANNELS --- */
+.channel-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* --- CHANNEL CARDS --- */
+.channel-card {
+  background: #2d2d2d;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+  transition: border-color 0.25s ease;
+  border: 1px solid #333;
+}
+
+.channel-card:hover {
+  border-color: #555;
+}
+
+.channel-card label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.channel-card input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #3a3a3a;
+  color: white;
+  margin-bottom: 12px;
+  transition: background 0.2s;
+}
+
+.channel-card input:focus {
+  outline: none;
+  background: #454545;
+}
+
+/* --- BOUTON SAVE --- */
+.save-btn {
+  background: #4a90e2;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: background 0.25s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.save-btn:hover {
+  background: #6db5ff;
+}
+
+/* --- MESSAGE DE SUCCÈS --- */
+.success-message {
+  background: #1e4620;
+  border-left: 5px solid #4caf50;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #b2e2b6;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- RESPONSIVE SIDEBAR + MAIN --- */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}
+

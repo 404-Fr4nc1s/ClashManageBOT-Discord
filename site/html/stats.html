@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> - ClaraClash</title>
+    <link rel="stylesheet" href="../css/stats.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Topbar -->
+      <aside class="topbar">
+        <div class="topbar-container">
+          <div class="brand">
+            <img
+              src="<%= botAvatarUrl %>"
+              alt="Bot Avatar"
+              class="bot-avatar"
+            />
+            <h2 class="bot-name">- <%= botName %></h2>
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="/">
+              <i class="fa-solid fa-house"></i> Accueil
+            </a>
+            <a href="/stats" class="active">
+              <i class="fa-solid fa-chart-column"></i> Stats
+            </a>
+            <a href="/gdc">
+              <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+            </a>
+            <a href="/admin">
+              <i class="fa-solid fa-user-shield"></i> Chefs
+            </a>
+            <a href="/settings">
+              <i class="fa-solid fa-gear"></i> Settings
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content">
+        <!-- Header -->
+        <header class="header">
+          <h1>📊 Statistiques du clan</h1>
+        </header>
+
+        <!-- Vérification si données disponibles -->
+        <% if (!clanName || clanName === '') { %>
+          <!-- Pas de données disponibles -->
+          <div class="no-data-container">
+            <div class="spinner"></div>
+            <h2 class="no-data-title">Chargement des statistiques...</h2>
+            <p class="no-data-subtitle">Les données sont en cours de récupération</p>
+          </div>
+        <% } else { %>
+
+        <!-- Infos Clan -->
+        <section class="clan-info">
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fa-solid fa-shield"></i>
+            </div>
+            <div class="info-content">
+              <h3>Nom du clan</h3>
+              <p><%= clanName %></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="info-content">
+              <h3>Niveau</h3>
+              <p><%= clanLevel %></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="info-content">
+              <h3>Trophées</h3>
+              <p><%= clanTrophies %></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="info-content">
+              <h3>Membres</h3>
+              <p><%= clanMembers %> / 50</p>
+            </div>
+          </div>
+          <div</div>
+            <div class="info-content">
+              <h3>Ligue Capitale</h3>
+              <p><%= currentLdcPosition %></p>
+            </div>
+          </div>
+        </section>lass="info-item">
+
+            <div class="info-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="info-content">
+              <h3>Activité</h3>
+              <p><%= activePercent %>% actifs</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fa-solid fa-crown"></i>
+          
+
+        <!-- Stats Mensuelles -->
+        <section class="stats-month">
+          <h2><i class="fa-solid fa-calendar-days"></i> Statistiques du mois</h2>
+          <% if (statsMonth && (statsMonth.winStreak || statsMonth.trophiesGained)) { %>
+          <div class="grid grid-4">
+            <div class="card stat-card">
+              <div class="card-icon">🏆</div>
+              <h3>Victoire max</h3>
+              <p class="stat-value"><%= statsMonth?.winStreak || 0 %></p>
+            </div>
+            <div class="card stat-card">
+              <div class="card-icon">💎</div>
+              <h3>Trophées gagnés</h3>
+              <p class="stat-value"><%= statsMonth?.trophiesGained || 0 %></p>
+            </div>
+            <div class="card stat-card">
+              <div class="card-icon">⭐</div>
+              <h3>Étoiles moyennes</h3>
+              <p class="stat-value"><%= statsMonth?.avgStars || 0 %></p>
+            </div>
+            <div class="card stat-card">
+              <div class="card-icon">⚔️</div>
+              <h3>Destruction moyenne</h3>
+              <p class="stat-value"><%= statsMonth?.avgDestruction || 0 %>%</p>
+            </div>
+          </div>
+          <% } else { %>
+          <div class="no-stats-message">
+            <i class="fa-solid fa-info-circle"></i>
+            <p>Pas de statistiques disponibles pour ce mois</p>
+          </div>
+          <% } %>
+        </section>
+
+        <!-- Top Membres -->
+        <section class="top-members">
+          <h2><i class="fa-solid fa-ranking-star"></i> Top Membres</h2>
+          <% if (topMembers && topMembers.length > 0) { %>
+          <ul class="classement-list">
+            <% topMembers.forEach((member, index) => { %>
+            <li class="classement-item">
+              <span class="rank-badge">
+                <% if (index === 0) { %>🥇
+                <% } else if (index === 1) { %>🥈
+                <% } else if (index === 2) { %>🥉
+                <% } else { %>#<%= index + 1 %>
+                <% } %>
+              </span>
+              <span class="name"><%= member.name %></span>
+              <span class="trophies">
+                <%= member.trophies %>
+                <i class="fa-solid fa-trophy trophy-icon"></i>
+              </span>
+            </li>
+            <% }) %>
+          </ul>
+          <% } else { %>
+          <div class="no-stats-message">
+            <i class="fa-solid fa-info-circle"></i>
+            <p>Aucun membre trouvé</p>
+          </div>
+          <% } %>
+        </section>
+
+        <!-- Dernière GDC -->
+        <section class="last-gdc">
+          <h2><i class="fa-solid fa-swords"></i> Dernière GDC</h2>
+          <% if (lastGdcOpponent && lastGdcOpponent !== 'N/A') { %>
+          <div class="grid grid-4">
+            <div class="card">
+              <h3>Adversaire</h3>
+              <p><%= lastGdcOpponent %></p>
+            </div>
+            <div class="card">
+              <h3>Score</h3>
+              <p><%= lastGdcScore %></p>
+            </div>
+            <div class="card">
+              <h3>Étoiles clan</h3>
+              <p><%= lastGdcStars %></p>
+            </div>
+            <div class="card">
+              <h3>Résultat</h3>
+              <p class="result-badge <%= lastGdcResult.toLowerCase() %>">
+                <%= lastGdcResult %>
+              </p>
+            </div>
+          </div>
+          <% } else { %>
+          <div class="no-stats-message">
+            <i class="fa-solid fa-info-circle"></i>
+            <p>Aucune donnée de GDC précédente</p>
+          </div>
+          <% } %>
+        </section>
+
+        <!-- GDC Actuelle -->
+        <section class="current-gdc">
+          <h2><i class="fa-solid fa-shield-halved"></i> GDC actuelle</h2>
+          <% if (opponentName && opponentName !== 'N/A') { %>
+          <div class="grid grid-3">
+            <div class="card">
+              <h3>Adversaire</h3>
+              <p><%= opponentName %></p>
+            </div>
+            <div class="card">
+              <h3>Score</h3>
+              <p><%= currentGdcScore %></p>
+            </div>
+            <div class="card">
+              <h3>Attaques effectuées</h3>
+              <p><%= currentGdcAttacks %></p>
+            </div>
+          </div>
+          <% } else { %>
+          <div class="no-stats-message">
+            <i class="fa-solid fa-info-circle"></i>
+            <p>Pas de GDC en cours actuellement</p>
+          </div>
+          <% } %>
+        </section>
+
+        <!-- Stats Membres -->
+        <section class="member-stats">
+          <h2><i class="fa-solid fa-table"></i> Stats des membres</h2>
+          <% if (memberStats && memberStats.length > 0) { %>
+          <div class="table-wrapper">
+            <table class="member-stats-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Nom</th>
+                  <th>Attaques</th>
+                  <th>Étoiles Moy.</th>
+                  <th>Destruction Moy.</th>
+                  <th>Meilleure Attaque</th>
+                  <th>Pire Attaque</th>
+                  <th>Score Global</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% memberStats.forEach((member, index) => { %>
+                <tr>
+                  <td class="rank-cell">#<%= index + 1 %></td>
+                  <td class="name-cell"><%= member.name %></td>
+                  <td><%= member.attacks %></td>
+                  <td><%= member.starsAvg.toFixed(2) %></td>
+                  <td><%= member.destructionAvg.toFixed(2) %>%</td>
+                  <td>
+                    <%= member.best.stars %> ⭐ / <%= member.best.destruction %>%
+                  </td>
+                  <td>
+                    <%= member.worst.stars %> ⭐ / <%= member.worst.destruction %>%
+                  </td>
+                  <td class="score-cell"><%= member.score %></td>
+                </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+          <% } else { %>
+          <div class="no-stats-message">
+            <i class="fa-solid fa-info-circle"></i>
+            <p>Aucune statistique de membre disponible</p>
+          </div>
+          <% } %>
+        </section>
+
+        <% } %>
+      </main>
+    </div>
+
+    <script src="../js/hamburger.js"></script>
+  </body>
+</html>

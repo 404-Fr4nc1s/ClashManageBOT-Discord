@@ -1,0 +1,25 @@
+{
+  "districts": {
+    "Capital Peak": {
+      "totalUpgradeCost": 0,
+      "currentUpgradeCost": 0
+    },
+    "Barbarian Camp": {
+      "totalUpgradeCost": 0,
+      "currentUpgradeCost": 0
+    },
+    "Wizard Valley": {
+      "totalUpgradeCost": 0,
+      "currentUpgradeCost": 0
+    },
+    "Balloon Lagoon": {
+      "totalUpgradeCost": 0,
+      "currentUpgradeCost": 0
+    },
+    "Builder's Workshop": {
+      "totalUpgradeCost": 0,
+      "currentUpgradeCost": 0
+    }
+  },
+  "lastUpdated": "2026-04-01T17:04:53.663Z"
+}

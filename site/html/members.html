@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> - ClaraClash</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/members.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Topbar -->
+      <aside class="topbar">
+        <div class="topbar-container">
+          <div class="brand">
+            <img
+              src="<%= botAvatarUrl %>"
+              alt="Bot Avatar"
+              class="bot-avatar"
+            />
+            <h2 class="bot-name">- <%= botName %></h2>
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="/">
+              <i class="fa-solid fa-house"></i> Accueil
+            </a>
+            <a href="/stats">
+              <i class="fa-solid fa-chart-column"></i> Stats
+            </a>
+            <a href="/gdc">
+              <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+            </a>
+            <a href="/admin" class="active">
+              <i class="fa-solid fa-user-shield"></i> Chefs
+            </a>
+            <a href="/settings">
+              <i class="fa-solid fa-gear"></i> Settings
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content">
+        <!-- Header -->
+        <div class="header">
+          <h1><i class="fa-solid fa-users"></i> Liste des membres</h1>
+          <p class="header-subtitle">Gérez les membres du clan et attribuez les attaques</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters-bar">
+          <div class="filter-group">
+            <label for="filterRole">
+              <i class="fa-solid fa-filter"></i> Rôle :
+            </label>
+            <select id="filterRole" onchange="filterMembers()">
+              <option value="all">Tous</option>
+              <option value="leader">Chef</option>
+              <option value="coleader">Adjoint</option>
+              <option value="admin">Ainé</option>
+              <option value="member">Membre</option>
+            </select>
+          </div>
+          
+          <div class="filter-group">
+            <label for="filterWar">
+              <i class="fa-solid fa-shield-halved"></i> Statut GDC :
+            </label>
+            <select id="filterWar" onchange="filterMembers()">
+              <option value="all">Tous</option>
+              <option value="in">En GDC</option>
+              <option value="out">Hors GDC</option>
+            </select>
+          </div>
+
+          <div class="search-group">
+            <i class="fa-solid fa-search"></i>
+            <input 
+              type="text" 
+              id="searchMember" 
+              placeholder="Rechercher un membre..."
+              onkeyup="filterMembers()"
+            />
+          </div>
+        </div>
+
+        <!-- Members Grid -->
+        <% if (memberCards && memberCards.length > 0) { %>
+        <div class="members-grid" id="membersGrid">
+          <% memberCards.forEach(member => { %>
+            <div 
+              class="member-card" 
+              data-name="<%= member.name %>" 
+              data-role="<%= member.role %>"
+              data-th="<%= member.townHallLevel %>"
+              data-trophies="<%= member.trophies %>"
+              data-war="<%= member.warPreference %>"
+              data-discord-id="<%= member.discordId || 'Aucun_ID' %>"
+              onclick="openMemberModal(this)"
+            >
+              <div class="member-avatar">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="member-info">
+                <h3 class="member-name"><%= member.name %></h3>
+                <span class="member-role <%= member.role %>">
+                  <% if (member.role === 'leader') { %>
+                    <i class="fa-solid fa-crown"></i> Chef
+                  <% } else if (member.role === 'coLeader') { %>
+                    <i class="fa-solid fa-star"></i> Adjoint
+                  <% } else if (member.role === 'admin') { %>
+                    <i class="fa-solid fa-shield"></i> Ainé
+                  <% } else { %>
+                    <i class="fa-solid fa-user"></i> Membre
+                  <% } %>
+                </span>
+              </div>
+              <div class="member-stats">
+                <div class="stat-item">
+                  <i class="fa-solid fa-home"></i>
+                  <span>HDV <%= member.townHallLevel %></span>
+                </div>
+                <div class="stat-item">
+                  <i class="fa-solid fa-trophy"></i>
+                  <span><%= member.trophies %></span>
+                </div>
+                <div class="stat-item war-status <%= member.warPreference === 'in' ? 'in' : 'out' %>">
+                  <i class="fa-solid fa-swords"></i>
+                  <span><%= member.warPreference === 'in' ? 'En GDC' : 'Hors GDC' %></span>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+        <% } else { %>
+        <div class="no-members-container">
+          <div class="spinner"></div>
+          <h2 class="no-members-title">Chargement des membres...</h2>
+          <p class="no-members-subtitle">Récupération des données en cours</p>
+        </div>
+        <% } %>
+      </main>
+    </div>
+
+    <!-- Première modale (Infos membre + options Admin) -->
+    <div id="memberModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeMemberModal()">
+          <i class="fa-solid fa-times"></i>
+        </span>
+        <div class="modal-header">
+          <div class="modal-avatar">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div>
+            <h2 id="modalName">Nom du membre</h2>
+            <p id="modalRole" class="modal-role">Rôle</p>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="modal-stat">
+            <i class="fa-solid fa-home"></i>
+            <span>HDV : <strong id="modalTh"></strong></span>
+          </div>
+          <div class="modal-stat">
+            <i class="fa-solid fa-trophy"></i>
+            <span>Trophées : <strong id="modalTrophies"></strong></span>
+          </div>
+          <div class="modal-stat">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Statut GDC : <strong id="modalWar"></strong></span>
+          </div>
+          <div class="modal-stat">
+            <i class="fa-brands fa-discord"></i>
+            <span>Discord : <strong id="modalDiscord"></strong></span>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button class="modal-btn primary assign-attack-btn">
+            <i class="fa-solid fa-crosshairs"></i>
+            Attribuer une attaque
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Deuxième modale (Saisie du numéro d'HDV) -->
+    <div id="assignModal" class="modal">
+      <div class="modal-content assign-modal">
+        <h3>
+          <i class="fa-solid fa-crosshairs"></i>
+          Attribuer une attaque
+        </h3>
+        <p id="selectedMemberName" class="selected-member"></p>
+        <div class="input-group">
+          <i class="fa-solid fa-hashtag"></i>
+          <input 
+            type="number" 
+            id="hdvNumber" 
+            placeholder="Numéro de l'HDV adverse" 
+            min="1" 
+            max="15" 
+          />
+        </div>
+        <div class="modal-actions">
+          <button class="modal-btn primary" id="confirmAssignBtn">
+            <i class="fa-solid fa-check"></i>
+            Valider
+          </button>
+          <button class="modal-btn danger" id="cancelAssignBtn">
+            <i class="fa-solid fa-times"></i>
+            Annuler
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/members.js"></script>
+    <script>
+      const hamburger = document.getElementById('hamburger');
+      const navLinks = document.getElementById('navLinks');
+
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('active');
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+          hamburger.classList.remove('active');
+          navLinks.classList.remove('active');
+        }
+      });
+
+      // Fonction de filtrage des membres
+      function filterMembers() {
+        const roleFilter = document.getElementById('filterRole').value.toLowerCase();
+        const warFilter = document.getElementById('filterWar').value.toLowerCase();
+        const searchTerm = document.getElementById('searchMember').value.toLowerCase();
+        const cards = document.querySelectorAll('.member-card');
+
+        cards.forEach(card => {
+          const name = card.dataset.name.toLowerCase();
+          const role = card.dataset.role.toLowerCase();
+          const war = card.dataset.war.toLowerCase();
+
+          const matchRole = roleFilter === 'all' || role === roleFilter;
+          const matchWar = warFilter === 'all' || war === warFilter;
+          const matchSearch = name.includes(searchTerm);
+
+          if (matchRole && matchWar && matchSearch) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

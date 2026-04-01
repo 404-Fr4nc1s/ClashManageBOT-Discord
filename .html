@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= title %> - Clash Manage</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/channelsettings.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <img src="<%= botAvatarUrl %>" alt="Bot Avatar" class="bot-avatar" />
+        <h2 class="bot-name"><%= botName %></h2>
+        <nav class="nav-links">
+          <a href="/"><i class="fa-solid fa-house"></i> Accueil</a>
+          <a href="/stats"><i class="fa-solid fa-chart-column"></i> Stats</a>
+          <a href="/gdc"><i class="fa-solid fa-shield-halved"></i> GDC / LDC</a>
+          <a href="/admin"><i class="fa-solid fa-user-shield"></i> Chefs</a>
+          <a href="/settings" class="active"
+            ><i class="fa-solid fa-gear"></i> Settings bot</a
+          >
+        </nav>
+      </aside>
+
+      <div class="content">
+        <div class="header">
+          <h1>⚙️ Channel settings :</h1>
+        </div>
+
+        <div class="containerChannel">
+          <div class="channelCard">
+            <h2 class="title">🗑️ - Message deleted</h2>
+            <input
+              type="text"
+              placeholder="en crous..."
+              class="inputChannel"
+              id="messageDelete"
+            />
+            <div class="modifyButton">
+              <button type="button" class="modifyAccept">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="modifyCancel">
+                <i class="fa-solid fa-x"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <div class="channelCard">
+            <h2 class="title">✏️ - Message Updated</h2>
+            <input
+              type="text"
+              placeholder="en crous..."
+              class="inputChannel"
+              id="messageUpdate"
+            />
+            <div class="modifyButton">
+              <button type="button" class="modifyAccept">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="modifyCancel">
+                <i class="fa-solid fa-x"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <div class="channelCard">
+            <h2 class="title">🛡️ - Role Update</h2>
+            <input
+              type="text"
+              placeholder="en crous..."
+              class="inputChannel"
+              id="roleUpdate"
+            />
+            <div class="modifyButton">
+              <button type="button" class="modifyAccept">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="modifyCancel">
+                <i class="fa-solid fa-x"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <div class="channelCard">
+            <h2 class="title">⚠️ - Erreur Bot</h2>
+            <input
+              type="text"
+              placeholder="en crous..."
+              class="inputChannel"
+              id="botError"
+            />
+            <div class="modifyButton">
+              <button type="button" class="modifyAccept">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="modifyCancel">
+                <i class="fa-solid fa-x"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <div class="channelCard">
+            <h2 class="title">🚨 - Anti Spam</h2>
+            <input
+              type="text"
+              placeholder="en crous..."
+              class="inputChannel"
+              id="antiSpam"
+            />
+            <div class="modifyButton">
+              <button type="button" class="modifyAccept">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="modifyCancel">
+                <i class="fa-solid fa-x"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <div class="channelCard">
+            <h2 class="title">🌐 - Anti Link</h2>
+            <input
+              type="text"
+              placeholder="en crous..."
+              class="inputChannel"
+              id="automodLink"
+            />
+            <div class="modifyButton">
+              <button type="button" class="modifyAccept">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="modifyCancel">
+                <i class="fa-solid fa-x"></i> Annuler
+              </button>
+            </div>
+          </div>
+
+          <div class="channelCard">
+            <h2 class="title">🔇 - Ban Word</h2>
+            <input
+              type="text"
+              placeholder="en crous..."
+              class="inputChannel"
+              id="banWord"
+            />
+            <div class="modifyButton">
+              <button type="button" class="modifyAccept">
+                <i class="fa-solid fa-check"></i> Valider
+              </button>
+              <button type="button" class="modifyCancel">
+                <i class="fa-solid fa-x"></i> Annuler
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="../js/channelsettings.js"></script>
+  </body>
+</html>

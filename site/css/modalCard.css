@@ -1,0 +1,45 @@
+.settings-card {
+  background: #252525;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.35);
+  width: 100%;           
+  max-width: 450px;      
+  margin-bottom: 1rem;
+}
+
+.settings-card h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border-left: 4px solid #6a6a6a;
+  padding-left: 10px;
+}
+
+.settings-btn {
+  background: #3a3a3a;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s ease, border 0.25s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+  border: 1px solid transparent;
+}
+
+.settings-btn:hover {
+  background: #505050;
+  border: 1px solid #676767;
+}
+
+@media (max-width: 600px) {
+  .settings-card {
+    max-width: 100%;
+  }
+
+  .settings-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

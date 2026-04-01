@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clash Manage - Dashboard</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="topbar">
+        <div class="topbar-container">
+          <div class="brand">
+            <img
+              src="<%= botAvatarUrl %>"
+              alt="Bot Avatar"
+              class="bot-avatar"
+            />
+            <h2 class="bot-name">- <%= botName %></h2>
+          </div>
+          
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="/" class="active">
+              <i class="fa-solid fa-house"></i> Accueil
+            </a>
+            <a href="/stats">
+              <i class="fa-solid fa-chart-column"></i> Stats
+            </a>
+            <a href="/gdc">
+              <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+            </a>
+            <a href="/admin">
+              <i class="fa-solid fa-user-shield"></i> Chefs
+            </a>
+            <a href="/settings">
+              <i class="fa-solid fa-gear"></i> Settings
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="grid">
+          <div class="card">
+            <h2 class="card-title">
+              <i class="fa-solid fa-shield"></i> Infos du clan
+            </h2>
+            <div class="clan-info">
+              <div class="info-item">
+                <span class="info-label">Nom du clan :</span>
+                <span class="info-value"><%= clanName %></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Niveau :</span>
+                <span class="info-value"><%= clanLevel %></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Membres :</span>
+                <span class="info-value">
+                  <%= clanMembers %> / <%= clanCapacity %> 👥
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">
+              <i class="fa-solid fa-swords"></i> Infos GDC
+            </h2>
+            <div class="gdc-section">
+              <h3 class="section-subtitle">Dernière GDC :</h3>
+              <p><strong>Résultat :</strong> <%= lastGdcResult %></p>
+              <p><strong>Clan adverse :</strong> <%= lastGdcOpponent %></p>
+            </div>
+            <div class="gdc-section">
+              <h3 class="section-subtitle">GDC en cours :</h3>
+              <p><strong>Adversaire :</strong> <%= currentGdcOpponent %></p>
+              <p><strong>Score actuel :</strong> <%= currentGdcScore %></p>
+            </div>
+            <a href="/gdc" class="btn-primary">Plus d'informations</a>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">
+              <i class="fa-solid fa-user"></i> Profil Joueur
+            </h2>
+            <p class="card-description">
+              Informations liées à votre compte Clash Royale
+            </p>
+            <div class="profile-placeholder">
+              <i class="fa-solid fa-crown fa-3x"></i>
+              <p>Connectez votre profil</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">
+              <i class="fa-solid fa-trophy"></i> Classement du clan
+            </h2>
+            <% if (Array.isArray(topMembers) && topMembers.length > 0) { %>
+            <ul class="classement-list">
+              <% topMembers.forEach(function(member, i) { %>
+              <li class="classement-item">
+                <span class="medal">
+                  <% if(i === 0) { %>🥇<% } else if(i === 1) { %>🥈<% } else if(i === 2) { %>🥉<% } else { %>#<%= i + 1 %><% } %>
+                </span>
+                <span class="member-name"><%= member.name %></span>
+                <span class="member-trophies">
+                  <%= member.trophies %> <i class="fa-solid fa-trophy"></i>
+                </span>
+              </li>
+              <% }) %>
+            </ul>
+            <% } else { %>
+            <p class="no-data">Aucun membre trouvé</p>
+            <% } %>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">
+              <i class="fa-solid fa-bullseye"></i> Objectifs
+            </h2>
+            <div class="objective-item">
+              <span class="objective-label">Trophées du clan</span>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <span class="objective-value">75%</span>
+            </div>
+            <div class="objective-item">
+              <span class="objective-label">Participation GDC</span>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 90%"></div>
+              </div>
+              <span class="objective-value">90%</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">
+              <i class="fa-solid fa-calendar"></i> Événements
+            </h2>
+            <div class="event-item">
+              <span class="event-date">Aujourd'hui</span>
+              <span class="event-name">Jour de GDC</span>
+            </div>
+            <div class="event-item">
+              <span class="event-date">Demain</span>
+              <span class="event-name">Tournoi du clan</span>
+            </div>
+            <div class="event-item">
+              <span class="event-date">Dans 3 jours</span>
+              <span class="event-name">Ligue du clan</span>
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+    <script src="../js/hamburger.js"></script>
+  </body>
+</html>

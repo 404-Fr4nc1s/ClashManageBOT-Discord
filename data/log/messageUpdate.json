@@ -1,0 +1,605 @@
+[
+    {
+        "messageId": "1438142040155099157",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108080045953025",
+        "oldContent": "https://cdn.discordapp.com/attachments/942539318470246481/1438137068940431431/image.png?ex=6915c904&is=69147784&hm=a12b6f987fff5645f84249b58eff9ec626c30690c0ba42f7febc04a8e40a302f&",
+        "newContent": "https://cdn.discordapp.com/attachments/942539318470246481/1438137068940431431/image.png?ex=6915c904&is=69147784&hm=a12b6f987fff5645f84249b58eff9ec626c30690c0ba42f7febc04a8e40a302f&",
+        "timestamp": "2025-11-12T12:23:02.039Z"
+    },
+    {
+        "messageId": "1438221656647794769",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "Aller dans la catégorie : \"Ticket\" puis dans le salon -> <#1438108076518670397>",
+        "newContent": "* Aller dans la catégorie : \"Ticket\" puis dans le salon -> <#1438108076518670397>",
+        "timestamp": "2025-11-12T17:40:03.638Z"
+    },
+    {
+        "messageId": "1438221801741222031",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "Une fois dans le salon, cliquer sur le bouton bleu comme ci dessous :",
+        "newContent": "* Une fois dans le salon, cliquer sur le bouton bleu comme ci dessous :",
+        "timestamp": "2025-11-12T17:40:08.515Z"
+    },
+    {
+        "messageId": "1438221801741222031",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "* Une fois dans le salon, cliquer sur le bouton bleu comme ci dessous :",
+        "newContent": "* Une fois dans le salon, cliquer sur le bouton bleu \"Ouvrir un ticket\" :",
+        "timestamp": "2025-11-12T17:40:34.643Z"
+    },
+    {
+        "messageId": "1438221801741222031",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "* Une fois dans le salon, cliquer sur le bouton bleu \"Ouvrir un ticket\" :",
+        "newContent": "* Une fois dans le salon, cliquer sur le bouton bleu \"**Ouvrir un ticket**\" :",
+        "timestamp": "2025-11-12T17:40:47.859Z"
+    },
+    {
+        "messageId": "1438221656647794769",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "* Aller dans la catégorie : \"Ticket\" puis dans le salon -> <#1438108076518670397>",
+        "newContent": "* Aller dans la catégorie : \"**Ticket**\" puis dans le salon -> <#1438108076518670397>",
+        "timestamp": "2025-11-12T17:40:52.778Z"
+    },
+    {
+        "messageId": "1438222155404939385",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "Une fois cela fait, vous retrouvez un nouveau salon dans cette même catégorie, exemple :",
+        "newContent": "* Une fois cela fait, vous retrouvez un nouveau salon dans cette même catégorie, exemple :",
+        "timestamp": "2025-11-12T17:41:54.700Z"
+    },
+    {
+        "messageId": "1438222155404939385",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "* Une fois cela fait, vous retrouvez un **nouveau salon** dans cette même catégorie, exemple :",
+        "newContent": "* Une fois cela fait, vous retrouvez un **nouveau salon** dans cette même catégorie :",
+        "timestamp": "2025-11-12T17:42:43.073Z"
+    },
+    {
+        "messageId": "1438222811964641440",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "* Votre salon privée est maintenant créer, mais vous n'avez pas encore rajouter les membres, pour se faire :",
+        "newContent": "* Votre salon privée est maintenant créer, **mais vous n'avez pas encore rajouter le(s) membre(s)**, pour se faire :",
+        "timestamp": "2025-11-12T17:44:17.928Z"
+    },
+    {
+        "messageId": "1438222811964641440",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "* Votre salon privée est maintenant créer, **mais vous n'avez pas encore rajouter le(s) membre(s)**, pour se faire :",
+        "newContent": "* Votre salon privée est maintenant créer, **mais vous n'avez pas encore rajouter le(s) membre(s)**, pour se faire : **/addmembertoticket [nom du membre]**",
+        "timestamp": "2025-11-12T17:45:42.033Z"
+    },
+    {
+        "messageId": "1438224705860669531",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438224286044389458",
+        "oldContent": "Un message est envoyé lorsque quelqu'un contribue.\n\nCelui-ci est : \n\n* **Daté **\n* **Nom du membres qui a contribué**",
+        "newContent": "Un message est envoyé lorsque quelqu'un contribue.\n\nCelui-ci est : \n\n* **Daté **\n* **Nom du membres qui a contribué**\n\nVoici un exemple :",
+        "timestamp": "2025-11-12T17:51:37.765Z"
+    },
+    {
+        "messageId": "1438224705860669531",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438224286044389458",
+        "oldContent": "Un message est envoyé lorsque quelqu'un contribue.\n\nCelui-ci est : \n\n* **Daté **\n* **Nom du membres qui a contribué**\n\nVoici un exemple :",
+        "newContent": "Un message est envoyé dans ce salon lorsque quelqu'un contribue.\n\nCelui-ci est : \n\n* **Daté **\n* **Nom du membres qui a contribué**\n\nVoici un exemple :",
+        "timestamp": "2025-11-12T17:51:45.459Z"
+    },
+    {
+        "messageId": "1438224705860669531",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438224286044389458",
+        "oldContent": "Un message est envoyé dans ce salon lorsque quelqu'un contribue.\n\nCelui-ci est : \n\n* **Daté **\n* **Nom du membres qui a contribué**\n\nVoici un exemple :",
+        "newContent": "Un message est envoyé dans ce salon lorsque quelqu'un contribue n'importe où dans la Capitale.\n\nCelui-ci est : \n\n* **Daté **\n* **Nom du membres qui a contribué**\n\nVoici un exemple :",
+        "timestamp": "2025-11-12T17:51:54.339Z"
+    },
+    {
+        "messageId": "1438227946891382915",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "ReBienvenue",
+        "newContent": "ReBienvenue !",
+        "timestamp": "2025-11-12T18:04:26.006Z"
+    },
+    {
+        "messageId": "1438224286044389458",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438224286044389458",
+        "oldContent": "Pour vous permettre de surveiller l'HDV de la Capitale (en cas de besoins) :",
+        "newContent": "Voici les étapes à suivre pour vous permettre de surveiller l'HDV de la Capitale (en cas de besoins) :",
+        "timestamp": "2025-11-12T18:34:22.053Z"
+    },
+    {
+        "messageId": "1438224340717146162",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438224286044389458",
+        "oldContent": "Vous avez ce salon -> <#1438108117366997095>",
+        "newContent": "* Vous avez ce salon -> <#1438108117366997095>",
+        "timestamp": "2025-11-12T18:34:42.454Z"
+    },
+    {
+        "messageId": "1438224340717146162",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438224286044389458",
+        "oldContent": "* Vous avez ce salon -> <#1438108117366997095>",
+        "newContent": "* **Vous avez ce salon ->** <#1438108117366997095>",
+        "timestamp": "2025-11-12T18:34:48.374Z"
+    },
+    {
+        "messageId": "1438236842368696391",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n\n* Dans le salon privée que vous avez créer au préalable sur Discord afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>",
+        "newContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n\n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>",
+        "timestamp": "2025-11-12T18:39:53.063Z"
+    },
+    {
+        "messageId": "1438236842368696391",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n\n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>",
+        "newContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n\n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"",
+        "timestamp": "2025-11-12T18:40:55.887Z"
+    },
+    {
+        "messageId": "1438236842368696391",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\n* Une fois que vous avez vérifier ceci, vous allez vous rendre soit : \n\n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon :",
+        "newContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\n* Une fois que vous avez vérifier ceci, vous allez vous rendre soit : \n\nDans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon :",
+        "timestamp": "2025-11-12T18:41:36.480Z"
+    },
+    {
+        "messageId": "1438236842368696391",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\n* Une fois que vous avez vérifier ceci, vous allez vous rendre soit : \n\nDans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon :",
+        "newContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon :",
+        "timestamp": "2025-11-12T18:41:52.933Z"
+    },
+    {
+        "messageId": "1438236842368696391",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon :",
+        "newContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon, vous allez écrire cette commande -> **/cocban membre [nom du membre]**",
+        "timestamp": "2025-11-12T18:43:49.514Z"
+    },
+    {
+        "messageId": "1438236842368696391",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon, vous allez écrire cette commande -> **/cocban membre [nom du membre]**",
+        "newContent": "Avant de vous apprendre comment exclure un membre du Discord, vous devez vous assurer que : \n\n* **Il n'est plus sur le Clan ou a été exclu au préalble sur le jeu !**\n\nUne fois que vous avez vérifier ceci, vous allez vous rendre soit : \n* Dans le **salon privée que vous avez créer au préalable sur Discord** afin de discuter avec le membre (<#1438221483443748965>)\n-# Si vous n'avez pas discuter avec le même avant, vous pouvez donc aller dans ce salon -> <#1438236759631724685>\n\n***JE VOUS CONSEILLE DE TOUJOURS ESSAYER DE CHERCHER LA DISCUTION AVEC LE MEMBRES !***\n-# Sauf dans le cas où celui-ci est irrespectueux, ou autre cas \"extrême\"\n\n* Une fois que vous êtes dans le bon salon, vous allez écrire cette commande -> **/cocban membre [nom du membre] [raison]**",
+        "timestamp": "2025-11-12T18:45:01.514Z"
+    },
+    {
+        "messageId": "1438238304813453474",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "La commande est composé de deux \"critères\" : \n\n* Le membre à exclure\n* La raison de son exclusion\n\n*Les deux sont obligatoires*",
+        "newContent": "**La commande est composé de deux \"critères\" : **\n\n* Le membre à exclure\n* La raison de son exclusion\n\n*Les deux sont obligatoires*",
+        "timestamp": "2025-11-12T18:45:38.297Z"
+    },
+    {
+        "messageId": "1438238304813453474",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "**La commande est composé de deux \"critères\" : **\n\n* Le membre à exclure\n* La raison de son exclusion\n\n*Les deux sont obligatoires*",
+        "newContent": "La commande est composé de deux \"critères\" : \n\n* **Le membre à exclure**\n* **La raison** de son exclusion\n\n*Les deux sont obligatoires*",
+        "timestamp": "2025-11-12T18:45:52.577Z"
+    },
+    {
+        "messageId": "1438238304813453474",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438235410458476686",
+        "oldContent": "La commande est composé de deux \"critères\" : \n\n* **Le membre à exclure**\n* **La raison** de son exclusion\n\n*Les deux sont obligatoires*",
+        "newContent": "La commande est composé de deux \"critères\" : \n\n* **Le membre à exclure**\n* **La raison** de son exclusion\n\n*Les deux sont **obligatoires***",
+        "timestamp": "2025-11-12T18:46:00.502Z"
+    },
+    {
+        "messageId": "1438238741951942751",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438221483443748965",
+        "oldContent": "Vous savez maintenant créer une conversation privée avec un/des membre(s) du Clan !",
+        "newContent": "> Vous savez maintenant créer une conversation privée avec un/des membre(s) du Clan !",
+        "timestamp": "2025-11-12T18:47:21.237Z"
+    },
+    {
+        "messageId": "1438243326439456908",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108078955565067",
+        "oldContent": "fazfza",
+        "newContent": "fazfzazfzffzf",
+        "timestamp": "2025-11-12T19:05:32.018Z"
+    },
+    {
+        "messageId": "1438243663120564285",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108078955565067",
+        "oldContent": "<#1438108077353341060>  <#1438108128162873365>  <#1438108142528364615>  <#1438108145401725090>   <#1438108149478326322> <#1438108154834587789> <#1438108158915645450> .",
+        "newContent": "<#1438108077353341060>  <#1438108128162873365>  <#1438108142528364615>  <#1438108145401725090>   <#1438108149478326322> <#1438108154834587789> <#1438108158915645450>",
+        "timestamp": "2025-11-12T19:06:54.199Z"
+    },
+    {
+        "messageId": "1438243663120564285",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108078955565067",
+        "oldContent": "<#1438108077353341060>  <#1438108128162873365>  <#1438108142528364615>  <#1438108145401725090>   <#1438108149478326322> <#1438108154834587789> <#1438108158915645450>",
+        "newContent": "<#1438108128162873365>  <#1438108142528364615>  <#1438108145401725090>   <#1438108149478326322> <#1438108154834587789> <#1438108158915645450>",
+        "timestamp": "2025-11-12T19:08:12.141Z"
+    },
+    {
+        "messageId": "1438250313193754715",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "eux ok je vais voirs mais <#1438108141320671365>  c'est juste pour absent",
+        "newContent": "eux ok je vais voir mais <#1438108141320671365>  c'est juste pour absent",
+        "timestamp": "2025-11-12T19:33:20.331Z"
+    },
+    {
+        "messageId": "1438259013874749450",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "<@1406984546171359254> normalement cisc",
+        "newContent": "<@1406984546171359254> normalement <@800491146320281641>  lance une gdc ce soir",
+        "timestamp": "2025-11-12T20:07:57.546Z"
+    },
+    {
+        "messageId": "1438536496083636316",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108141320671365",
+        "oldContent": "ando ❌",
+        "newContent": "ando ⌛ en cours il m'a dm",
+        "timestamp": "2025-11-13T14:31:45.478Z"
+    },
+    {
+        "messageId": "1438538547173920819",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "pour info je viens de mettre le <#1438108132588126282> a jours",
+        "newContent": "pour info je viens de mettre le <#1438108141320671365>  a jours",
+        "timestamp": "2025-11-13T14:40:18.862Z"
+    },
+    {
+        "messageId": "1438547555289010267",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "Puis il a quitté son ancien clan en pleine gdc... (",
+        "newContent": "Puis il a quitté son ancien clan en pleine gdc...",
+        "timestamp": "2025-11-13T15:14:28.225Z"
+    },
+    {
+        "messageId": "1438564427371647137",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "ok parfait je republié",
+        "newContent": "ok parfait je republie",
+        "timestamp": "2025-11-13T16:21:29.058Z"
+    },
+    {
+        "messageId": "1438617089932922890",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "Alors le déroulé est, mais l'écrit est un peu dur lol. \n\nPour les vis à vis en première attaque très bien (dans les heures qui suivent, oui, tu peux mettre une limite jusqu'à 10h le lendemain)\n\nLe reste, les attributions des deuxième attaque en fonction des résultats est bien aussi.\n\nTu peux préciser à la fin que oui, si il y a des soucis, des sanctionné seront appliqué.",
+        "newContent": "Alors le déroulé est très bieb, mais l'écrit est un peu dur lol. \n\nPour les vis à vis en première attaque très bien (dans les heures qui suivent, oui, tu peux mettre une limite jusqu'à 10h le lendemain)\n\nLe reste, les attributions des deuxième attaque en fonction des résultats est bien aussi.\n\nTu peux préciser à la fin que oui, si il y a des soucis, des sanctionné seront appliqué.",
+        "timestamp": "2025-11-13T19:56:05.483Z"
+    },
+    {
+        "messageId": "1438622452027490376",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥",
+        "newContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥\n\n|| <@&1438108039340232764>  ||",
+        "timestamp": "2025-11-13T20:12:44.492Z"
+    },
+    {
+        "messageId": "1438622975996723312",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\nGérant de cette GDC : <@1406984546171359254> \n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥\n\n|| <@&1438108039340232764>  ||",
+        "newContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\n*Gérant de cette GDC 😗 <@1406984546171359254> \n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥\n\n|| <@&1438108039340232764>  ||",
+        "timestamp": "2025-11-13T20:14:18.583Z"
+    },
+    {
+        "messageId": "1438622975996723312",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\n*Gérant de cette GDC 😗 <@1406984546171359254> \n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥\n\n|| <@&1438108039340232764>  ||",
+        "newContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\n*Gérant de cette GDC : * <@1406984546171359254> \n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥\n\n|| <@&1438108039340232764>  ||",
+        "timestamp": "2025-11-13T20:14:32.782Z"
+    },
+    {
+        "messageId": "1438622975996723312",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\n*Gérant de cette GDC : * <@1406984546171359254> \n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥\n\n|| <@&1438108039340232764>  ||",
+        "newContent": "🔥 **PREMIÈRE GUERRE DE CLAN – CLASH OF CLANS** 🔥\n\n**Gérant de cette GDC :** <@1406984546171359254> \n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \nEt n'oubliez jamais :  \n\n> *Perdre, c'est un état d'esprit...*  \n> *Nous, on choisit de GAGNER !* 💪🔥\n\n|| <@&1438108039340232764>  ||",
+        "timestamp": "2025-11-13T20:14:46.556Z"
+    },
+    {
+        "messageId": "1438636062414082111",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "* *Message en italique:*\n`*Message en gras*`",
+        "newContent": "* *Message en italique:*\n`*Message en italique*`",
+        "timestamp": "2025-11-13T21:06:12.026Z"
+    },
+    {
+        "messageId": "1438637062072041603",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "< barre sur le coté :",
+        "newContent": "> Barre sur le côté :\n`> Barre sur le côté`",
+        "timestamp": "2025-11-13T21:11:00.672Z"
+    },
+    {
+        "messageId": "1438635957313339584",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "* **Message en gras**:\n`**Message en gras**`",
+        "newContent": "* **Message en gras**:\n`**Message en gras**`\n--------------------------------------",
+        "timestamp": "2025-11-13T21:11:22.567Z"
+    },
+    {
+        "messageId": "1438636062414082111",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "* *Message en italique:*\n`*Message en italique*`",
+        "newContent": "* *Message en italique:*\n`*Message en italique*`\n--------------------------------------",
+        "timestamp": "2025-11-13T21:11:26.084Z"
+    },
+    {
+        "messageId": "1438636499347177622",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "* ~~Message barré:~~\n`~~Message barré~~`",
+        "newContent": "* ~~Message barré:~~\n`~~Message barré~~`\n--------------------------------------",
+        "timestamp": "2025-11-13T21:11:28.944Z"
+    },
+    {
+        "messageId": "1438636806177427476",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "* || Message caché: || :\n`|| Message caché ||`",
+        "newContent": "* || Message caché: || :\n`|| Message caché ||`\n--------------------------------------",
+        "timestamp": "2025-11-13T21:11:31.236Z"
+    },
+    {
+        "messageId": "1438637062072041603",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "> Barre sur le côté :\n`> Barre sur le côté`",
+        "newContent": "> Barre sur le côté :\n`> Barre sur le côté`\n--------------------------------------",
+        "timestamp": "2025-11-13T21:11:33.608Z"
+    },
+    {
+        "messageId": "1438635736093032560",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438635736093032560",
+        "oldContent": "Voici les différents syntaxe disponible sur discord:",
+        "newContent": "Voici les différentes syntaxes disponibles sur Discord:",
+        "timestamp": "2025-11-13T21:12:23.927Z"
+    },
+    {
+        "messageId": "1438831502539493386",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108081757356105",
+        "oldContent": "Salut ça va .",
+        "newContent": "Salut ça va",
+        "timestamp": "2025-11-14T12:02:55.145Z"
+    },
+    {
+        "messageId": "1438913410292121670",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "Bon go bannir **fantoxl**,",
+        "newContent": "Bon go bannir **fantoxl**,**✨6frames✨** et **raphou** ?",
+        "timestamp": "2025-11-14T15:28:39.610Z"
+    },
+    {
+        "messageId": "1438991091411193989",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108099889332317",
+        "oldContent": "il est hdv 17 il va bien trouver*",
+        "newContent": "il est hdv 17 il va bien trouver",
+        "timestamp": "2025-11-14T20:37:03.026Z"
+    },
+    {
+        "messageId": "1438991283094949898",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108141320671365",
+        "oldContent": "(delais de",
+        "newContent": "(delais de 30 second pour refresh l'emed)",
+        "timestamp": "2025-11-14T20:37:51.183Z"
+    },
+    {
+        "messageId": "1439019675143897229",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "Je vais me remettre dessus demain d'ailleurs",
+        "newContent": "Je vais me remettre dessus demain d'ailleurs",
+        "timestamp": "2025-11-14T22:30:47.431Z"
+    },
+    {
+        "messageId": "1439019675143897229",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "Je vais me remettre dessus demain d'ailleurs",
+        "newContent": "Je vais me remettre dessus demain d'ailleurs",
+        "timestamp": "2025-11-14T22:33:02.873Z"
+    },
+    {
+        "messageId": "1439252964236595353",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "Et d'ailleurs petit retour de ta GDC : \n\nTes décisions ont étés top, tu as pris le temps de bien ping tout le monde, c'était parfait !",
+        "newContent": "Et d'ailleurs petit retour de ta GDC : \n\nTes décisions ont étés top, tu as pris le temps de bien ping tout le monde, c'était parfait !\nSeul chose à laquelle je penses, c'est les mentions @clan, un moment tu l'as utilisé pour parler à Franck, rien de grave, c'est juste que ça a ping tout le monde. Mais rien d'alarmant !",
+        "timestamp": "2025-11-15T13:58:33.831Z"
+    },
+    {
+        "messageId": "1439266018739359755",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "Fin bref. On va enchainé les GDC <@1406984546171359254> , on fait 1 chacune pour ce qui est de la gestion de celles-co",
+        "newContent": "Fin bref. On va enchainé les GDC <@1406984546171359254> , on fait 1 chacune pour ce qui est de la gestion de celles-ci",
+        "timestamp": "2025-11-15T14:49:22.307Z"
+    },
+    {
+        "messageId": "1439266018739359755",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1438108099889332317",
+        "oldContent": "Fin bref. On va enchainé les GDC <@1406984546171359254> , on fait 1 chacune pour ce qui est de la gestion de celles-ci",
+        "newContent": "Fin bref. On va enchainé les GDC <@1406984546171359254> , on fait 1 chacune pour ce qui est de la gestion de celles-ci ?",
+        "timestamp": "2025-11-15T14:49:54.528Z"
+    },
+    {
+        "messageId": "1439268929808896213",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1439261945923633202",
+        "oldContent": "Lorsqu'un membre fait une attaque durant une GDC/LDC -> <#1438108127190061126>\nLorsqu'un membre fait une attaque durant un RAIDS -> <#1438108108843913236> \n\n-# A VENIR...",
+        "newContent": "* Lorsqu'un membre fait une attaque durant une GDC/LDC -> <#1438108127190061126>\n* Lorsqu'un membre fait une attaque durant un RAIDS -> <#1438108108843913236> \n\n-# A VENIR...",
+        "timestamp": "2025-11-15T15:01:02.438Z"
+    },
+    {
+        "messageId": "1439383920063025224",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1438108106889629716",
+        "oldContent": "refresh tout les 30 se",
+        "newContent": "refresh tout les 30 sec",
+        "timestamp": "2025-11-15T22:37:50.312Z"
+    },
+    {
+        "messageId": "1439690816237867233",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1439690744330846400",
+        "oldContent": "### Les principales syntaxes sur Discord\n\n**1. Gras**  \nRendu : **Message en gras**  \nSyntaxe : `**Message en gras**`\n\n**2. Italique**  \nRendu : *Message en italique*  \nSyntaxe : `*Message en italique*`\n\n**3. Gras et italique**  \nRendu : ***Message en gras et italique***  \nSyntaxe : `***Message en gras et italique***`\n\n**4. Souligné**  \nRendu : __Message souligné__  \nSyntaxe : `__Message souligné__`\n\n**5. Barré**  \nRendu : ~~Message barré~~  \nSyntaxe : `~~Message barré~~`\n\n**6. Code inline**  \nRendu : `Message en code`  \nSyntaxe : `` `Message en code` ``\n\n**7. Bloc de code**  \nRendu :\n```\nMessage sur plusieurs lignes\n```\nSyntaxe :\n```\n```\nMessage sur plusieurs lignes\n```\n```\n\n**8. Citation**  \nRendu :\n> Message en citation  \nSyntaxe : `> Message en citation`\n\n**9. Citation multiple**  \nRendu :\n>> Message en citation multiple  \nSyntaxe : `>> Message en citation multiple`",
+        "newContent": "### Les principales syntaxes sur Discord\n\n**1. Gras**  \nRendu : **Message en gras**  \nSyntaxe : `**Message en gras**`\n\n**2. Italique**  \nRendu : *Message en italique*  \nSyntaxe : `*Message en italique*`\n\n**3. Gras et italique**  \nRendu : ***Message en gras et italique***  \nSyntaxe : `***Message en gras et italique***`\n\n**4. Souligné**  \nRendu : __Message souligné__  \nSyntaxe : `__Message souligné__`\n\n**5. Barré**  \nRendu : ~~Message barré~~  \nSyntaxe : `~~Message barré~~`\n\n**6. Code inline**  \nRendu : `Message en code`  \nSyntaxe : `` `Message en code` ``\n\n**7. Bloc de code**  \nRendu :\n```\nMessage sur plusieurs lignes\n```\nSyntaxe :\n```\n ```\n  Message sur plusieurs lignes\n ```\n```\n\n**8. Citation**  \nRendu :\n> Message en citation  \nSyntaxe : `> Message en citation`\n\n**9. Citation multiple**  \nRendu :\n>> Message en citation multiple  \nSyntaxe : `>> Message en citation multiple`",
+        "timestamp": "2025-11-16T18:57:58.915Z"
+    },
+    {
+        "messageId": "1439691012132962466",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1439690744330846400",
+        "oldContent": "### Les principales syntaxes sur Discord\n\n**1. Gras**  \nRendu : **Message en gras**  \nSyntaxe : `**Message en gras**`\n\n**2. Italique**  \nRendu : *Message en italique*  \nSyntaxe : `*Message en italique*`\n\n**3. Gras et italique**  \nRendu : ***Message en gras et italique***  \nSyntaxe : `***Message en gras et italique***`\n\n**4. Souligné**  \nRendu : __Message souligné__  \nSyntaxe : `__Message souligné__`\n\n**5. Barré**  \nRendu : ~~Message barré~~  \nSyntaxe : `~~Message barré~~`\n\n**6. Code inline**  \nRendu : `Message en code`  \nSyntaxe : `` `Message en code` ``\n\n**7. Bloc de code**  \nRendu :\n```\nMessage sur plusieurs lignes\n```\nSyntaxe :\n```\n```\nMessage sur plusieurs lignes\n```\n```\n\n**8. Citation**  \nRendu :\n> Message en citation  \nSyntaxe : `> Message en citation`\n\n**9. Citation multiple**  \nRendu :\n>> Message en citation multiple  \nSyntaxe : `>> Message en citation multiple`",
+        "newContent": "### Les principales syntaxes sur Discord\n\n**1. Gras**  \nRendu : **Message en gras**  \nSyntaxe : `**Message en gras**`\n\n**2. Italique**  \nRendu : *Message en italique*  \nSyntaxe : `*Message en italique*`\n\n**3. Gras et italique**  \nRendu : ***Message en gras et italique***  \nSyntaxe : `***Message en gras et italique***`\n\n**4. Souligné**  \nRendu : __Message souligné__  \nSyntaxe : `__Message souligné__`\n\n**5. Barré**  \nRendu : ~~Message barré~~  \nSyntaxe : `~~Message barré~~`\n\n**6. Code inline**  \nRendu : `Message en code`  \nSyntaxe : `` `Message en code` ``\n\n**8. Citation**  \nRendu :\n> Message en citation  \nSyntaxe : `> Message en citation`\n\n**9. Citation multiple**  \nRendu :\n>> Message en citation multiple  \nSyntaxe : `>> Message en citation multiple`",
+        "timestamp": "2025-11-16T18:58:24.188Z"
+    },
+    {
+        "messageId": "1439691117267259514",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1439690744330846400",
+        "oldContent": "### Les principales syntaxes sur Discord\n\n**1. Gras**  \nRendu : **Message en gras**  \nSyntaxe : `**Message en gras**`\n\n**2. Italique**  \nRendu : *Message en italique*  \nSyntaxe : `*Message en italique*`\n\n**3. Gras et italique**  \nRendu : ***Message en gras et italique***  \nSyntaxe : `***Message en gras et italique***`\n\n**4. Souligné**  \nRendu : __Message souligné__  \nSyntaxe : `__Message souligné__`\n\n**5. Barré**  \nRendu : ~~Message barré~~  \nSyntaxe : `~~Message barré~~`\n\n**6. Code inline**  \nRendu : `Message en code`  \nSyntaxe : `` `Message en code` ``\n\n**8. Citation**  \nRendu :\n> Message en citation  \nSyntaxe : `> Message en citation`\n\n**9. Citation multiple**  \nRendu :\n>> Message en citation multiple  \nSyntaxe : `>> Message en citation multiple`",
+        "newContent": "### Les principales syntaxes sur Discord\n\n**1. Gras**  \nRendu : **Message en gras**  \nSyntaxe : `**Message en gras**`\n\n**2. Italique**  \nRendu : *Message en italique*  \nSyntaxe : `*Message en italique*`\n\n**3. Gras et italique**  \nRendu : ***Message en gras et italique***  \nSyntaxe : `***Message en gras et italique***`\n\n**4. Souligné**  \nRendu : __Message souligné__  \nSyntaxe : `__Message souligné__`\n\n**5. Barré**  \nRendu : ~~Message barré~~  \nSyntaxe : `~~Message barré~~`\n\n**6. Code inline**  \nRendu : `Message en code`  \nSyntaxe : `` `Message en code` ``\n\n**8. Citation**  \nRendu :\n> Message en citation  \nSyntaxe : `> Message en citation`",
+        "timestamp": "2025-11-16T18:59:00.026Z"
+    },
+    {
+        "messageId": "1440029355739840664",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1439674678774993056",
+        "oldContent": "C'EST CIO",
+        "newContent": "C'EST CIAO",
+        "timestamp": "2025-11-17T17:22:38.957Z"
+    },
+    {
+        "messageId": "1440062573616697565",
+        "authorId": "1406984546171359254",
+        "authorTag": "vickkk30",
+        "channelId": "1439674675570413780",
+        "oldContent": "Dérouler de cette GDC :\n\n**Gérant de cette GDC :** <@ the vicking's\n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \n\n💡et N'OUBLIEZ JAMAIS, perdre , c'est un état d'esprit 💡 ( ON LÀ GAGNE ❗❗❗ )",
+        "newContent": "Dérouler de cette GDC :\n\n**Gérant de cette GDC :** <@1406984546171359254> \n\n*1ère ATTAQUE OBLIGATOIRE dans les **12 premières heures** sur son **VIS-À-VIS UNIQUEMENT** ❗*\n\n⭐ **Par la suite :**  \nLes attaques seront **attribuées en fonction des étoiles prises** en dessous de nos vis-à-vis.\n\n⚠️ **ATTENTION :**  \n👉 TOUTE ATTAQUE **non faite dans le temps demandé**,  \n👉 Ou **numéro non respecté**,  \n➡️ **SERA SANCTIONNÉE** ❗\n\n💥 **Bon jeu, bonne guerre !**  \n\n💡et N'OUBLIEZ JAMAIS, perdre , c'est un état d'esprit 💡 ( ON LÀ GAGNE ❗❗❗ ) <@&1439674613465616395>",
+        "timestamp": "2025-11-17T19:37:24.238Z"
+    },
+    {
+        "messageId": "1440643294668521513",
+        "authorId": "800491146320281641",
+        "authorTag": "mfhfranfran",
+        "channelId": "1439674678774993056",
+        "oldContent": "Hdv 11 en GDC pas possible, on va trop chère",
+        "newContent": "Hdv 11 en GDC pas possible, on va prendre trop chère",
+        "timestamp": "2025-11-19T10:02:24.548Z"
+    },
+    {
+        "messageId": "1488580538150420564",
+        "authorId": "936624677810495508",
+        "authorTag": "mfhaztax",
+        "channelId": "1439674678774993056",
+        "oldContent": "Bonjour <@&1439674625897529365>, \n\nJe viens de regarder la liste de nos participants à la LDC, on est assez mais de ne pas grand chose.. \nLa voici : \n\n* Zeqh\n* Franck\n* Ame Dragon\n* Mewdu70\n* Xaxa\n* PFT♥Holo\n* Pops\n* Enzo A\n* Astekax\n* Cisco des bois\n* Senoriita\n* Aztax\n\nRemplaçant : \n\n* MFH-Aztax\n* Maya",
+        "newContent": "Bonjour <@&1439674625897529365>, \n\nJe viens de regarder la liste de nos participants à la LDC, on est assez mais de ne pas grand chose.. \nLa voici : \n\n* Zeqh\n* Franck\n* Ame Dragon\n* Mewdu70\n* Xaxa\n* PFT♥Holo\n* Pops\n* Enzo A\n* Astekax\n* Cisco des bois\n* Senoriita\n* Aztax\n\nRemplaçant : \n\n* MFH-Aztax\n* Maya\n* Holo2",
+        "timestamp": "2026-03-31T18:03:11.730Z"
+    }
+]

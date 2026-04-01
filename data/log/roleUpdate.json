@@ -1,0 +1,1663 @@
+[
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhfranfran",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108040845983777",
+                "name": "DEV"
+            }
+        ],
+        "timestamp": "2025-11-12T16:15:04.636Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhfranfran",
+        "addedRoles": [
+            {
+                "id": "1438108040845983777",
+                "name": "DEV"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-12T16:19:19.064Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "mfhfranfran",
+        "addedRoles": [
+            {
+                "id": "1438108039340232764",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-12T18:00:51.666Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "mfhfranfran",
+        "addedRoles": [
+            {
+                "id": "1438108050392354867",
+                "name": "Chef(s) Adjoint(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-12T18:00:54.997Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "mfhfranfran",
+        "addedRoles": [
+            {
+                "id": "1438108031031447573",
+                "name": "Chefs"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-12T18:00:56.025Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1438108043257839656",
+                "name": "Ainé(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-12T18:01:03.507Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108039340232764",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-12T19:07:29.479Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108039340232764",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-12T19:07:31.429Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T16:46:18.932Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1438108043257839656",
+                "name": "Ainé(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T16:46:22.317Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T17:16:19.637Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-13T17:17:02.319Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T17:17:04.186Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-13T17:17:06.976Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T17:17:07.155Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-13T17:17:12.554Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T17:17:14.874Z"
+    },
+    {
+        "memberId": "809050195623018516",
+        "memberTag": "noxy3357",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T17:19:17.455Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T17:49:01.824Z"
+    },
+    {
+        "memberId": "1403826585823481919",
+        "memberTag": "letote_",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-13T20:31:27.961Z"
+    },
+    {
+        "memberId": "717368458240720957",
+        "memberTag": "onfiree",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-14T11:09:16.389Z"
+    },
+    {
+        "memberId": "717368458240720957",
+        "memberTag": "onfiree",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-15T10:18:34.241Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1438108046696906822",
+                "name": "Anciens Piliers du Clan"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-15T17:54:04.680Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108046696906822",
+                "name": "Anciens Piliers du Clan"
+            }
+        ],
+        "timestamp": "2025-11-15T17:54:07.717Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-15T18:01:58.803Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-15T18:02:04.293Z"
+    },
+    {
+        "memberId": "1268884634884898843",
+        "memberTag": "j.seb0358_09066",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1438108039340232764",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T16:24:54.392Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108031031447573",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:09.476Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108031031447573",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:09.659Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108031031447573",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:09.888Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108033329660076",
+                "name": "L'élite"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:10.110Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108033329660076",
+                "name": "L'élite"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:10.340Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:10.694Z"
+    },
+    {
+        "memberId": "717368458240720957",
+        "memberTag": "onfiree",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:10.977Z"
+    },
+    {
+        "memberId": "759766575506128947",
+        "memberTag": "malolololo",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108035263500328",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:11.176Z"
+    },
+    {
+        "memberId": "387992859883732992",
+        "memberTag": "lesoldat0837",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:11.392Z"
+    },
+    {
+        "memberId": "424565386361700352",
+        "memberTag": "stainless3506",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:11.591Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:11.834Z"
+    },
+    {
+        "memberId": "809050195623018516",
+        "memberTag": "noxy3357",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:12.073Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:12.299Z"
+    },
+    {
+        "memberId": "986661574964027492",
+        "memberTag": "zeqhlabuche",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:12.534Z"
+    },
+    {
+        "memberId": "1403826585823481919",
+        "memberTag": "letote_",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:12.747Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:13.031Z"
+    },
+    {
+        "memberId": "1431744661675839700",
+        "memberTag": "jeanjaures225",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108037733810287",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:32:13.284Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108044868194406",
+                "name": "Recruteur"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:08.272Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108044868194406",
+                "name": "Recruteur"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:08.465Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108048966287411",
+                "name": "Gérant-Discord"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:09.208Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108048966287411",
+                "name": "Gérant-Discord"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:09.439Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108050392354867",
+                "name": "Chef(s) Adjoint(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:09.626Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108050392354867",
+                "name": "Chef(s) Adjoint(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:09.812Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108050392354867",
+                "name": "Chef(s) Adjoint(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:10.069Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108051969282048",
+                "name": "Chef du Clan"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:10.232Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1438108051969282048",
+                "name": "Chef du Clan"
+            }
+        ],
+        "timestamp": "2025-11-16T17:38:10.431Z"
+    },
+    {
+        "memberId": "387992859883732992",
+        "memberTag": "lesoldat0837",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            },
+            {
+                "id": "1439670912252252383",
+                "name": "Ainé(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:44.386Z"
+    },
+    {
+        "memberId": "424565386361700352",
+        "memberTag": "stainless3506",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:44.585Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670897811259595",
+                "name": "gdc_rouge"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:44.775Z"
+    },
+    {
+        "memberId": "717368458240720957",
+        "memberTag": "onfiree",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            },
+            {
+                "id": "1439670912252252383",
+                "name": "Ainé(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:45.366Z"
+    },
+    {
+        "memberId": "759766575506128947",
+        "memberTag": "malolololo",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670897811259595",
+                "name": "gdc_rouge"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:45.666Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670894258688081",
+                "name": "Chefs"
+            },
+            {
+                "id": "1439670896003645583",
+                "name": "L'élite"
+            },
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            },
+            {
+                "id": "1439670909446258831",
+                "name": "DEV"
+            },
+            {
+                "id": "1439670913820921857",
+                "name": "Recruteur"
+            },
+            {
+                "id": "1439670917717426277",
+                "name": "Gérant-Discord"
+            },
+            {
+                "id": "1439670919533695076",
+                "name": "Chef(s) Adjoint(s)"
+            },
+            {
+                "id": "1439670921018478604",
+                "name": "Chef du Clan"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:46.549Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670894258688081",
+                "name": "Chefs"
+            },
+            {
+                "id": "1439670896003645583",
+                "name": "L'élite"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            },
+            {
+                "id": "1439670909446258831",
+                "name": "DEV"
+            },
+            {
+                "id": "1439670913820921857",
+                "name": "Recruteur"
+            },
+            {
+                "id": "1439670917717426277",
+                "name": "Gérant-Discord"
+            },
+            {
+                "id": "1439670919533695076",
+                "name": "Chef(s) Adjoint(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:46.853Z"
+    },
+    {
+        "memberId": "986661574964027492",
+        "memberTag": "zeqhlabuche",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            },
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:47.103Z"
+    },
+    {
+        "memberId": "1062013398361059409",
+        "memberTag": "toup_louda",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T17:38:47.667Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670894258688081",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:32.746Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670894258688081",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:32.945Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670896003645583",
+                "name": "L'élite"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:33.108Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670896003645583",
+                "name": "L'élite"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:33.275Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670897811259595",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:33.471Z"
+    },
+    {
+        "memberId": "759766575506128947",
+        "memberTag": "malolololo",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670897811259595",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:33.663Z"
+    },
+    {
+        "memberId": "387992859883732992",
+        "memberTag": "lesoldat0837",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:35.077Z"
+    },
+    {
+        "memberId": "424565386361700352",
+        "memberTag": "stainless3506",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:35.367Z"
+    },
+    {
+        "memberId": "717368458240720957",
+        "memberTag": "onfiree",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:35.558Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:35.767Z"
+    },
+    {
+        "memberId": "986661574964027492",
+        "memberTag": "zeqhlabuche",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670900336103494",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:35.962Z"
+    },
+    {
+        "memberId": "387992859883732992",
+        "memberTag": "lesoldat0837",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:36.252Z"
+    },
+    {
+        "memberId": "424565386361700352",
+        "memberTag": "stainless3506",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:36.444Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:36.650Z"
+    },
+    {
+        "memberId": "717368458240720957",
+        "memberTag": "onfiree",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:36.950Z"
+    },
+    {
+        "memberId": "759766575506128947",
+        "memberTag": "malolololo",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:37.336Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:37.528Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:37.754Z"
+    },
+    {
+        "memberId": "986661574964027492",
+        "memberTag": "zeqhlabuche",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:37.962Z"
+    },
+    {
+        "memberId": "1062013398361059409",
+        "memberTag": "toup_louda",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:38.179Z"
+    },
+    {
+        "memberId": "1403826585823481919",
+        "memberTag": "letote_",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670901791523007",
+                "name": "Membre(s)"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:38.427Z"
+    },
+    {
+        "memberId": "800491146320281641",
+        "memberTag": "mfhfranfran",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670909446258831",
+                "name": "DEV"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:38.596Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439670909446258831",
+                "name": "DEV"
+            }
+        ],
+        "timestamp": "2025-11-16T17:42:38.764Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1439674618112905238",
+                "name": "Ainé(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T18:09:49.724Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T18:09:50.547Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1439674608235057173",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-16T18:09:51.750Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-16T18:09:52.183Z"
+    },
+    {
+        "memberId": "1404047300094988388",
+        "memberTag": "guiche13",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-17T17:16:35.732Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674627897950218",
+                "name": "Chef du Clan"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-17T17:36:20.631Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-17T19:35:03.791Z"
+    },
+    {
+        "memberId": "1406984546171359254",
+        "memberTag": "vickkk30",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-17T19:35:07.969Z"
+    },
+    {
+        "memberId": "1404047300094988388",
+        "memberTag": "guiche13",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674618112905238",
+                "name": "Ainé(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-17T19:48:55.454Z"
+    },
+    {
+        "memberId": "1403826585823481919",
+        "memberTag": "letote_",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674618112905238",
+                "name": "Ainé(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-17T19:49:04.594Z"
+    },
+    {
+        "memberId": "986661574964027492",
+        "memberTag": "zeqhlabuche",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-18T19:22:42.070Z"
+    },
+    {
+        "memberId": "986661574964027492",
+        "memberTag": "zeqhlabuche",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674608235057173",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-18T19:22:42.273Z"
+    },
+    {
+        "memberId": "424565386361700352",
+        "memberTag": "stainless3506",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-19T17:16:01.193Z"
+    },
+    {
+        "memberId": "424565386361700352",
+        "memberTag": "stainless3506",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674608235057173",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-19T17:16:01.507Z"
+    },
+    {
+        "memberId": "1062013398361059409",
+        "memberTag": "toup_louda",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-20T07:18:40.648Z"
+    },
+    {
+        "memberId": "717368458240720957",
+        "memberTag": "onfiree",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439674611280117824",
+                "name": "gdc_vert"
+            }
+        ],
+        "timestamp": "2025-11-20T19:13:55.917Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439674608235057173",
+                "name": "gdc_rouge"
+            }
+        ],
+        "timestamp": "2025-11-20T21:42:39.148Z"
+    },
+    {
+        "memberId": "619565201305501706",
+        "memberTag": "lozroadalex",
+        "executor": "Clash Manage#2633",
+        "addedRoles": [
+            {
+                "id": "1439674608235057173",
+                "name": "gdc_rouge"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-20T21:42:43.884Z"
+    },
+    {
+        "memberId": "416859980579340290",
+        "memberTag": "mewdu70",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1439674613465616395",
+                "name": "Membre(s)"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-23T13:11:31.438Z"
+    },
+    {
+        "memberId": "1276871221547499541",
+        "memberTag": "SUPPORT - MP MOI !#1300",
+        "executor": "Inconnu",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1439673424225112157",
+                "name": "SUPPORT - MP MOI !"
+            }
+        ],
+        "timestamp": "2025-11-23T13:28:20.819Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-26T20:44:29.162Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "timestamp": "2025-11-26T20:44:30.154Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-26T20:44:46.754Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-26T20:44:53.893Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-27T17:27:48.574Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "timestamp": "2025-11-27T17:27:49.507Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-27T17:28:18.357Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-27T17:28:32.459Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-27T17:37:13.389Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "timestamp": "2025-11-27T17:37:14.054Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-27T17:55:28.511Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-27T17:55:44.624Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "timestamp": "2025-11-27T17:57:07.479Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [],
+        "removedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "timestamp": "2025-11-27T17:57:08.026Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513754249134232",
+                "name": "Chefs"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-27T17:58:08.433Z"
+    },
+    {
+        "memberId": "936624677810495508",
+        "memberTag": "mfhaztax",
+        "executor": "mfhaztax",
+        "addedRoles": [
+            {
+                "id": "1437513765506777198",
+                "name": "DEV"
+            }
+        ],
+        "removedRoles": [],
+        "timestamp": "2025-11-27T17:58:23.695Z"
+    }
+]

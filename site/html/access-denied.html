@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/access-denied.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accès refusé</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,400,500,600,700"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="error-container">
+      <div class="error-icon">🚫</div>
+      <h1>Accès refusé</h1>
+
+      <div class="reason"><%= reason %></div>
+
+      <div class="buttons">
+        <a href="/auth/discord" class="btn">🔐 Se connecter avec Discord</a>
+        <a href="/" class="btn">🏠 Retour à l'accueil</a>
+      </div>
+
+      <div class="info">
+        💡 <strong>Besoin d'aide ?</strong><br />
+        Si vous pensez avoir les permissions nécessaires,<br />
+        contactez un administrateur du serveur Discord.
+      </div>
+    </div>
+  </body>
+</html>

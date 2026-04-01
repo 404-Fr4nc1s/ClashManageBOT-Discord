@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.no-war-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 40px 20px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.spinner {
+  width: 80px;
+  height: 80px;
+  border: 6px solid #333;
+  border-top: 6px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 30px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.no-war-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.no-war-subtitle {
+  font-size: 1.1rem;
+  color: #999;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gdcGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.clanBox {
+  background: linear-gradient(145deg, #2a2a2a, #252525);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border: 1px solid #333;
+}
+
+.clanTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gdcCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+}
+
+.gdcCard:hover {
+  background: #282828;
+  transform: translateX(5px);
+  border-color: #444;
+}
+
+.cardLeft {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+.position {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  min-width: 40px;
+  text-align: center;
+}
+
+.memberName {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  flex: 1;
+}
+
+.thLevel {
+  font-size: 0.9rem;
+  color: #999;
+  background: #252525;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.thImg {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.fadeIn {
+  animation: fadeInUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gdcCard:nth-child(2) { animation-delay: 0.05s; }
+.gdcCard:nth-child(3) { animation-delay: 0.1s; }
+.gdcCard:nth-child(4) { animation-delay: 0.15s; }
+.gdcCard:nth-child(5) { animation-delay: 0.2s; }
+.gdcCard:nth-child(6) { animation-delay: 0.25s; }
+.gdcCard:nth-child(7) { animation-delay: 0.3s; }
+.gdcCard:nth-child(8) { animation-delay: 0.35s; }
+.gdcCard:nth-child(9) { animation-delay: 0.4s; }
+.gdcCard:nth-child(10) { animation-delay: 0.45s; }
+
+@media (max-width: 1024px) {
+  .gdcGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1012px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .no-war-title {
+    font-size: 1.5rem;
+  }
+
+  .no-war-subtitle {
+    font-size: 1rem;
+  }
+
+  .spinner {
+    width: 60px;
+    height: 60px;
+    border-width: 5px;
+  }
+
+  .clanBox {
+    padding: 20px;
+  }
+
+  .clanTitle {
+    font-size: 1.2rem;
+  }
+
+  .gdcCard {
+    padding: 12px 15px;
+  }
+
+  .cardLeft {
+    gap: 10px;
+  }
+
+  .position {
+    font-size: 1rem;
+    min-width: 35px;
+  }
+
+  .memberName {
+    font-size: 0.9rem;
+  }
+
+  .thLevel {
+    font-size: 0.8rem;
+    padding: 3px 8px;
+  }
+
+  .thImg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.6rem;
+  }
+
+  .cardLeft {
+    flex-wrap: wrap;
+  }
+
+  .thLevel {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+}

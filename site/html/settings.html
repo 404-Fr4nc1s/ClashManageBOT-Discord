@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> - ClaraClash</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Topbar -->
+      <aside class="topbar">
+        <div class="topbar-container">
+          <div class="brand">
+            <img
+              src="<%= botAvatarUrl %>"
+              alt="Bot Avatar"
+              class="bot-avatar"
+            />
+            <h2 class="bot-name">- <%= botName %></h2>
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="/">
+              <i class="fa-solid fa-house"></i> Accueil
+            </a>
+            <a href="/stats">
+              <i class="fa-solid fa-chart-column"></i> Stats
+            </a>
+            <a href="/gdc">
+              <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+            </a>
+            <a href="/admin">
+              <i class="fa-solid fa-user-shield"></i> Chefs
+            </a>
+            <a href="/settings" class="active">
+              <i class="fa-solid fa-gear"></i> Settings
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content">
+        <!-- Header -->
+        <div class="header">
+          <h1>⚙️ Paramètres du Bot :</h1>
+          <p class="header-subtitle">Gérez les paramètres et les fonctionnalités du bot</p>
+        </div>
+
+        <!-- Admin Grid -->
+        <div class="admin-grid">
+          <!-- Card GDC/LDC -->
+          <div class="admin-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="card-content">
+              <h2>Logs du bot</h2>
+              <p>Accédez à la page des logs des du bot</p>
+              <button
+                class="admin-btn secondary"
+                onclick="window.location.href='/settings/logs'"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+                Ouvrir la page
+              </button>
+            </div>
+          </div>
+
+          <!-- Card Membres -->
+          <div class="admin-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="card-content">
+              <h2>Channel settings</h2>
+              <p>Gérez les salons du bot, leurs permissions et leurs configurations.</p>
+              <button
+                class="admin-btn secondary"
+                onclick="window.location.href='/settings/channelsettings'"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+                Ouvrir la page
+              </button>
+            </div>
+          </div>
+
+        </div>
+        
+        <section class="quick-actions-section">
+          <h2><i class="fa-solid fa-bolt"></i> Actions Rapides</h2>
+          <div class="quick-actions-grid">
+            <button
+              class="quick-action-btn"
+              onclick="alert('Synchronisation en cours...')"
+            >
+              <i class="fa-solid fa-sync"></i>
+              <span>Synchroniser les données</span>
+            </button>
+            <button
+              class="quick-action-btn"
+              onclick="alert('Export en cours...')"
+            >
+              <i class="fa-solid fa-download"></i>
+              <span>Exporter les données</span>
+            </button>
+            <button
+              class="quick-action-btn"
+              onclick="alert('Sauvegarde en cours...')"
+            >
+              <i class="fa-solid fa-floppy-disk"></i>
+              <span>Sauvegarder</span>
+            </button>
+            <button class="quick-action-btn" onclick="window.location.href='/'">
+              <i class="fa-solid fa-home"></i>
+              <span>Retour à l'accueil</span>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="../js/hamburger.js"></script>
+  </body>
+</html>

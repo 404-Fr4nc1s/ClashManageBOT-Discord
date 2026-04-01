@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> - ClaraClash</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link rel="stylesheet" href="../css/plant-attaques.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="topbar">
+        <div class="topbar-container">
+          <div class="brand">
+            <img
+              src="<%= botAvatarUrl %>"
+              alt="Bot Avatar"
+              class="bot-avatar"
+            />
+            <h2 class="bot-name">- <%= botName %></h2>
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" id="navLinks">
+            <a href="/">
+              <i class="fa-solid fa-house"></i> Accueil
+            </a>
+            <a href="/stats">
+              <i class="fa-solid fa-chart-column"></i> Stats
+            </a>
+            <a href="/gdc">
+              <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+            </a>
+            <a href="/admin" class="active">
+              <i class="fa-solid fa-user-shield"></i> Chefs
+            </a>
+            <a href="/settings">
+              <i class="fa-solid fa-gear"></i> Settings
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="header">
+          <h1>🗺️ Plan d'attaques:</h1>
+          <p class="header-subtitle">Gérez les plan d'attaques de la GDC</p>
+        </div>
+
+        <div class="admin-grid">
+          <div class="admin-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-map-location"></i>
+            </div>
+            <div class="card-content">
+              <h2>Vis à vis + Mentions Discord</h2>
+              <p>La première attaque sera un vis à vis, puis les secondes attaques seront des @ Discord !</p>
+              <button
+                class="admin-btn secondary"
+                onclick="openGdcModal('plan1')"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+                Envoyer ce plan d'attaques
+              </button>
+            </div>
+          </div>
+
+          <div class="admin-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-map-location"></i>
+            </div>
+            <div class="card-content">
+              <h2>Vis à vis = -1 + Mentions Discord</h2>
+              <p>La première attaque chaque participant font -1 par rapport à leurs numéros (Ex : Le 9 attaque le 10)</p>
+              <button
+                class="admin-btn secondary"
+                onclick="openGdcModal('plan2')"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+                Envoyer ce plan d'attaques
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div id="gdcModal" class="modal">
+      <div class="modal-content">
+        <h2>Choisir le gérant de la GDC</h2>
+        <div class="select-wrapper">
+          <select class="selectGerant" id="gdcManagerSelect"></select>
+          <i class="fa-solid fa-chevron-down chevron"></i>
+        </div>
+
+        <div class="modal-buttons">
+          <button id="confirmGdcBtn">Confirmer</button>
+          <button id="cancelGdcBtn">Annuler</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/gdc.js"></script>
+    <script src="../js/hamburger.js"></script>
+  </body>
+</html>

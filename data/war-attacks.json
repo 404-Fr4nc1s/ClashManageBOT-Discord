@@ -1,0 +1,502 @@
+[
+  {
+    "attackerTag": "#PGRQY2QGC",
+    "defenderTag": "#2VQJCJP8Q",
+    "attackerName": "tim",
+    "defenderName": "Dingstar12",
+    "stars": 1,
+    "destruction": 70,
+    "duration": 102,
+    "order": 1
+  },
+  {
+    "attackerTag": "#9UC8V0RG",
+    "defenderTag": "#UU0G2Y2U",
+    "attackerName": "franck",
+    "defenderName": "SpeakeasyBob",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 146,
+    "order": 2
+  },
+  {
+    "attackerTag": "#QGYUQ989Q",
+    "defenderTag": "#P22JLCPQ0",
+    "attackerName": "Zeqh",
+    "defenderName": "najeeb.alam",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 137,
+    "order": 3
+  },
+  {
+    "attackerTag": "#2RJPVV9L",
+    "defenderTag": "#2PRCVPGJU",
+    "attackerName": "LoupNoirR",
+    "defenderName": "little Dog",
+    "stars": 2,
+    "destruction": 83,
+    "duration": 101,
+    "order": 4
+  },
+  {
+    "attackerTag": "#LUQVPVGYU",
+    "defenderTag": "#Q9GRR9R0R",
+    "attackerName": "toutoun 1",
+    "defenderName": "bh26",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 107,
+    "order": 5
+  },
+  {
+    "attackerTag": "#9U28LCQRR",
+    "defenderTag": "#LRVPV09",
+    "attackerName": "⚡︎ᴏᴘ⚡︎ ᴇᴡᴇɴ",
+    "defenderName": "LORD_DIEGO",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 152,
+    "order": 6
+  },
+  {
+    "attackerTag": "#2RLRRL0LU",
+    "defenderTag": "#2VQJCJP8Q",
+    "attackerName": "xaxa",
+    "defenderName": "Dingstar12",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 111,
+    "order": 9
+  },
+  {
+    "attackerTag": "#UVLUJUCU",
+    "defenderTag": "#GUVYCCYL",
+    "attackerName": "the vicking's",
+    "defenderName": "Exiled",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 156,
+    "order": 16
+  },
+  {
+    "attackerTag": "#9GLJPJC9C",
+    "defenderTag": "#88GGY9RVR",
+    "attackerName": "⚡︎ᴏᴘ⚡︎ ᴇᴡᴇɴ",
+    "defenderName": "HEROFACE",
+    "stars": 2,
+    "destruction": 96,
+    "duration": 159,
+    "order": 17
+  },
+  {
+    "attackerTag": "#2CU9U89GY",
+    "defenderTag": "#280CPR20G",
+    "attackerName": "Cisco des bois",
+    "defenderName": "vansh",
+    "stars": 2,
+    "destruction": 52,
+    "duration": 133,
+    "order": 18
+  },
+  {
+    "attackerTag": "#LRC2PL9LQ",
+    "defenderTag": "#8URQC8L82",
+    "attackerName": "Aztax",
+    "defenderName": "Lux Antenqa 2",
+    "stars": 1,
+    "destruction": 80,
+    "duration": 121,
+    "order": 19
+  },
+  {
+    "attackerTag": "#LU9UYRG2Y",
+    "defenderTag": "#2PRCVPGJU",
+    "attackerName": "charles",
+    "defenderName": "little Dog",
+    "stars": 2,
+    "destruction": 96,
+    "duration": 180,
+    "order": 20
+  },
+  {
+    "attackerTag": "#GQCJ8CYY2",
+    "defenderTag": "#8URQC8L82",
+    "attackerName": "Letote",
+    "defenderName": "Lux Antenqa 2",
+    "stars": 2,
+    "destruction": 81,
+    "duration": 140,
+    "order": 21
+  },
+  {
+    "attackerTag": "#QP28L8JCL",
+    "defenderTag": "#2LQYQJYGL",
+    "attackerName": "guiche",
+    "defenderName": "RamRod",
+    "stars": 2,
+    "destruction": 89,
+    "duration": 180,
+    "order": 22
+  },
+  {
+    "attackerTag": "#28CUP8P0C",
+    "defenderTag": "#8RRQGQR0",
+    "attackerName": "mewdu70",
+    "defenderName": "Eddie",
+    "stars": 2,
+    "destruction": 94,
+    "duration": 165,
+    "order": 24
+  },
+  {
+    "attackerTag": "#QGYUQ989Q",
+    "defenderTag": "#L0GVGJJJU",
+    "attackerName": "Zeqh",
+    "defenderName": "Terminator007",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 115,
+    "order": 1
+  },
+  {
+    "attackerTag": "#9UC8V0RG",
+    "defenderTag": "#GGY9JGLQG",
+    "attackerName": "franck",
+    "defenderName": "li",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 103,
+    "order": 2
+  },
+  {
+    "attackerTag": "#2RJPVV9L",
+    "defenderTag": "#GGYP22J2P",
+    "attackerName": "LoupNoirR",
+    "defenderName": "Hackerr",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 73,
+    "order": 3
+  },
+  {
+    "attackerTag": "#PGRQY2QGC",
+    "defenderTag": "#L0LYGC00Q",
+    "attackerName": "tim",
+    "defenderName": "✴Klevi✴",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 86,
+    "order": 4
+  },
+  {
+    "attackerTag": "#2CU9U89GY",
+    "defenderTag": "#9JYLLPULP",
+    "attackerName": "Cisco des bois",
+    "defenderName": "king of kings",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 127,
+    "order": 5
+  },
+  {
+    "attackerTag": "#2RLRRL0LU",
+    "defenderTag": "#Y92J9GCQC",
+    "attackerName": "xaxa",
+    "defenderName": "L K _",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 104,
+    "order": 6
+  },
+  {
+    "attackerTag": "#UVLUJUCU",
+    "defenderTag": "#P992GYG0P",
+    "attackerName": "the vicking's",
+    "defenderName": "BABAGJYSHI",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 92,
+    "order": 7
+  },
+  {
+    "attackerTag": "#9GLJPJC9C",
+    "defenderTag": "#QR8C9JRQ9",
+    "attackerName": "⚡︎ᴏᴘ⚡︎ ᴇᴡᴇɴ",
+    "defenderName": "jeton bakiji",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 108,
+    "order": 8
+  },
+  {
+    "attackerTag": "#9U28LCQRR",
+    "defenderTag": "#8U0QC8CC8",
+    "attackerName": "⚡︎ᴏᴘ⚡︎ ᴇᴡᴇɴ",
+    "defenderName": "Endri",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 98,
+    "order": 9
+  },
+  {
+    "attackerTag": "#LU9UYRG2Y",
+    "defenderTag": "#Y2UVR2JQ2",
+    "attackerName": "charles",
+    "defenderName": "The Boss",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 144,
+    "order": 10
+  },
+  {
+    "attackerTag": "#LRC2PL9LQ",
+    "defenderTag": "#8GUR22Q8Q",
+    "attackerName": "Aztax",
+    "defenderName": "✴Klevi✴",
+    "stars": 2,
+    "destruction": 84,
+    "duration": 133,
+    "order": 11
+  },
+  {
+    "attackerTag": "#GQCJ8CYY2",
+    "defenderTag": "#PJ828RLJ9",
+    "attackerName": "Letote",
+    "defenderName": "EL COMANDANTE",
+    "stars": 2,
+    "destruction": 95,
+    "duration": 165,
+    "order": 12
+  },
+  {
+    "attackerTag": "#LUQVPVGYU",
+    "defenderTag": "#Q8V8YY90Y",
+    "attackerName": "toutoun 1",
+    "defenderName": "The Lord",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 125,
+    "order": 13
+  },
+  {
+    "attackerTag": "#QP28L8JCL",
+    "defenderTag": "#2UPQGPQ9L",
+    "attackerName": "guiche",
+    "defenderName": "Komandant",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 147,
+    "order": 14
+  },
+  {
+    "attackerTag": "#28CUP8P0C",
+    "defenderTag": "#LVVPUVQRQ",
+    "attackerName": "mewdu70",
+    "defenderName": "SKODRINON",
+    "stars": 2,
+    "destruction": 55,
+    "duration": 86,
+    "order": 16
+  },
+  {
+    "attackerTag": "#QGYUQ989Q",
+    "defenderTag": "#GJRPQY2UG",
+    "attackerName": "Zeqh",
+    "defenderName": "MR. DEMONS 1.0",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 124,
+    "order": 2
+  },
+  {
+    "attackerTag": "#2RJPVV9L",
+    "defenderTag": "#QR999UGPV",
+    "attackerName": "LoupNoirR",
+    "defenderName": "mdnahid",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 64,
+    "order": 3
+  },
+  {
+    "attackerTag": "#LUQVPVGYU",
+    "defenderTag": "#Q00QGPUC9",
+    "attackerName": "toutoun 1",
+    "defenderName": "☞ MR. DEMONS ◑",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 98,
+    "order": 4
+  },
+  {
+    "attackerTag": "#PGRQY2QGC",
+    "defenderTag": "#LY9Q2GQ",
+    "attackerName": "tim",
+    "defenderName": "☢️RAMJAN☢️",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 67,
+    "order": 5
+  },
+  {
+    "attackerTag": "#9U28LCQRR",
+    "defenderTag": "#LQYQG2Y8P",
+    "attackerName": "⚡︎ᴏᴘ⚡︎ ᴇᴡᴇɴ",
+    "defenderName": "Mang",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 139,
+    "order": 6
+  },
+  {
+    "attackerTag": "#9UC8V0RG",
+    "defenderTag": "#GUP9L8QGG",
+    "attackerName": "franck",
+    "defenderName": "MR. DEMONS 3.0",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 61,
+    "order": 8
+  },
+  {
+    "attackerTag": "#2RLRRL0LU",
+    "defenderTag": "#QLRJJU22C",
+    "attackerName": "xaxa",
+    "defenderName": "rohit ali",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 122,
+    "order": 14
+  },
+  {
+    "attackerTag": "#UVLUJUCU",
+    "defenderTag": "#Q82JYUJJV",
+    "attackerName": "the vicking's",
+    "defenderName": "Rohit",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 125,
+    "order": 13
+  },
+  {
+    "attackerTag": "#9GLJPJC9C",
+    "defenderTag": "#Q8QV0YRQL",
+    "attackerName": "⚡︎ᴏᴘ⚡︎ ᴇᴡᴇɴ",
+    "defenderName": "Ye yint JR",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 171,
+    "order": 15
+  },
+  {
+    "attackerTag": "#2CU9U89GY",
+    "defenderTag": "#QJG9QVQLR",
+    "attackerName": "Cisco des bois",
+    "defenderName": "☞MR. THUNDER",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 155,
+    "order": 18
+  },
+  {
+    "attackerTag": "#LRC2PL9LQ",
+    "defenderTag": "#QQJLQQYGR",
+    "attackerName": "Aztax",
+    "defenderName": "Tanjim",
+    "stars": 2,
+    "destruction": 89,
+    "duration": 168,
+    "order": 19
+  },
+  {
+    "attackerTag": "#9JYLG2LV9",
+    "defenderTag": "#LLCQV0Q28",
+    "attackerName": "Ratapoil",
+    "defenderName": "❤️رحيق القلوب❤️",
+    "stars": 2,
+    "destruction": 67,
+    "duration": 117,
+    "order": 9
+  },
+  {
+    "attackerTag": "#2J2P9VUJV",
+    "defenderTag": "#9PCYR0LV",
+    "attackerName": "samuel",
+    "defenderName": "ابو موسئ المدمر",
+    "stars": 2,
+    "destruction": 59,
+    "duration": 69,
+    "order": 10
+  },
+  {
+    "attackerTag": "#2CU9U89GY",
+    "defenderTag": "#P9CLLYPVC",
+    "attackerName": "Cisco des bois",
+    "defenderName": "سجادالموصلي",
+    "stars": 2,
+    "destruction": 77,
+    "duration": 132,
+    "order": 15
+  },
+  {
+    "attackerTag": "#QGYUQ989Q",
+    "defenderTag": "#QG8YC2QUG",
+    "attackerName": "Zeqh",
+    "defenderName": "توڪيو٭؟",
+    "stars": 2,
+    "destruction": 93,
+    "duration": 180,
+    "order": 1
+  },
+  {
+    "attackerTag": "#2RLRRL0LU",
+    "defenderTag": "#QL0U8YJYR",
+    "attackerName": "xaxa",
+    "defenderName": "محمدسبع",
+    "stars": 2,
+    "destruction": 58,
+    "duration": 125,
+    "order": 16
+  },
+  {
+    "attackerTag": "#PQGCJGURU",
+    "defenderTag": "#8CQ2YGV8R",
+    "attackerName": "Kehops",
+    "defenderName": "عبدالله الراشدي",
+    "stars": 2,
+    "destruction": 52,
+    "duration": 116,
+    "order": 17
+  },
+  {
+    "attackerTag": "#2RJPVV9L",
+    "defenderTag": "#LPVLUYC08",
+    "attackerName": "LoupNoirR",
+    "defenderName": "RlDA_Ali",
+    "stars": 3,
+    "destruction": 100,
+    "duration": 120,
+    "order": 3
+  },
+  {
+    "attackerTag": "#PGRQY2QGC",
+    "defenderTag": "#9RQ2R92CY",
+    "attackerName": "tim",
+    "defenderName": "مصطفئ البهادلي",
+    "stars": 2,
+    "destruction": 76,
+    "duration": 115,
+    "order": 2
+  },
+  {
+    "attackerTag": "#UVLUJUCU",
+    "defenderTag": "#Q9YGG2VQC",
+    "attackerName": "the vicking's",
+    "defenderName": "حسوني محمد سبع",
+    "stars": 2,
+    "destruction": 76,
+    "duration": 170,
+    "order": 14
+  }
+]

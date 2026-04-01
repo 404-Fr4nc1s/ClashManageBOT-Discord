@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> - ClaraClash</title>
+  <link rel="stylesheet" href="../../css/index.css">
+  <link rel="stylesheet" href="../../css/logs.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="topbar">
+      <div class="topbar-container">
+        <div class="brand">
+          <img
+            src="<%= botAvatarUrl %>"
+            alt="Bot Avatar"
+            class="bot-avatar"
+          />
+          <h2 class="bot-name">- <%= botName %></h2>
+        </div>
+
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="/">
+            <i class="fa-solid fa-house"></i> Accueil
+          </a>
+          <a href="/stats">
+            <i class="fa-solid fa-chart-column"></i> Stats
+          </a>
+          <a href="/gdc">
+            <i class="fa-solid fa-shield-halved"></i> GDC / LDC
+          </a>
+          <a href="/admin">
+            <i class="fa-solid fa-user-shield"></i> Chefs
+          </a>
+          <a href="/settings" class="active">
+            <i class="fa-solid fa-gear"></i> Settings
+          </a>
+        </nav>
+      </div>
+    </aside>
+
+    <main class="content logContainer">
+      <div class="header">
+        <h1><i class="fa-solid fa-file-lines"></i> Logs Discord</h1>
+        <p class="header-subtitle">Consultez l'historique des événements du serveur</p>
+      </div>
+
+      <div class="logsContainer">
+        <aside class="logsSidebar">
+          <h2><i class="fa-solid fa-folder-open"></i> Types de logs</h2>
+          <div class="logSelectorList">
+            <div class="logSelector" data-log="messageDelete">
+              <i class="fa-solid fa-trash"></i>
+              <span>Message supprimé</span>
+            </div>
+            <div class="logSelector" data-log="messageUpdate">
+              <i class="fa-solid fa-pen"></i>
+              <span>Message modifié</span>
+            </div>
+            <div class="logSelector" data-log="roleUpdate">
+              <i class="fa-solid fa-user-tag"></i>
+              <span>Rôle modifié</span>
+            </div>
+            <div class="logSelector" data-log="antilinkData">
+              <i class="fa-solid fa-link-slash"></i>
+              <span>Anti-link</span>
+            </div>
+            <div class="logSelector" data-log="ticketCreated">
+              <i class="fa-solid fa-ticket"></i>
+              <span>Ticket créé</span>
+            </div>
+            <div class="logSelector" data-log="ticketClosed">
+              <i class="fa-solid fa-ticket"></i>
+              <span>Ticket fermé</span>
+            </div>
+            <div class="logSelector" data-log="ticketStatut">
+              <i class="fa-solid fa-ticket"></i>
+              <span>Statut ticket</span>
+            </div>
+          </div>
+
+          <div class="filter-section">
+            <h3><i class="fa-solid fa-filter"></i> Filtrer par ID</h3>
+            <div class="filter-input-group">
+              <i class="fa-solid fa-search"></i>
+              <input 
+                type="text" 
+                id="logTargetInput" 
+                placeholder="ID utilisateur / channel"
+              />
+            </div>
+            <button id="applyFilter" class="filter-btn">
+              <i class="fa-solid fa-check"></i>
+              Appliquer le filtre
+            </button>
+          </div>
+        </aside>
+
+        <section class="logsDisplay">
+          <div class="logs-header">
+            <h2 id="currentLogTitle">
+              <i class="fa-solid fa-circle-info"></i>
+              Sélectionnez un type de log
+            </h2>
+            <div class="logs-count" id="logsCount" style="display: none;">
+              <i class="fa-solid fa-list"></i>
+              <span id="countText">0 logs</span>
+            </div>
+          </div>
+          <div id="logsOutput" class="logsOutput">
+            <div class="placeholder-container">
+              <i class="fa-solid fa-inbox"></i>
+              <p class="placeholder">Aucun log sélectionné</p>
+              <p class="placeholder-subtitle">Choisissez un type de log dans le menu de gauche</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    window.logsData = {
+      messageDelete: <%- JSON.stringify(messageDeleteLogs) %>,
+      messageUpdate: <%- JSON.stringify(messageUpdateLogs) %>,
+      roleUpdate: <%- JSON.stringify(roleUpdateLogs) %>,
+      antilinkData: <%- JSON.stringify(antilinkDataLogs) %>,
+      ticketCreated: <%- JSON.stringify(ticketCreatedLogs) %>,
+      ticketClosed: <%- JSON.stringify(ticketClosedLogs) %>,
+      ticketStatut: <%- JSON.stringify(ticketStatutLogs) %>
+    };
+  </script>
+
+  <script src="../js/logs.js"></script>
+  <script src="../js/hamburger.js"></script>
+</body>
+</html>

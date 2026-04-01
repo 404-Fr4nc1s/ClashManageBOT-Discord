@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %> - Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <nav>
+    <a href="/"><i class="fa-solid fa-house"></i> Accueil</a>
+    <a href="/stats"><i class="fa-solid fa-chart-column"></i> Stats</a>
+    <a href="/gdc"><i class="fa-solid fa-shield-halved"></i> GDC / LDC</a>
+    <a href="/admin"><i class="fa-solid fa-user-shield"></i> Admin</a>
+    <a href="/settings"><i class="fa-solid fa-gear"></i> Paramètres</a>
+  </nav>
+    </aside>
+    <main class="content">
+      <%- body %>
+    </main>
+  </div>
+</body>
+</html>

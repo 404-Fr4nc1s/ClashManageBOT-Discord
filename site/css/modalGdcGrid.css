@@ -1,0 +1,100 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.gdcGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px;
+}
+
+.clanBox {
+  width: 50%;
+}
+
+.clanTitle {
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.gdcCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+
+  padding: 18px 22px;
+  border-radius: 16px;
+
+  margin-bottom: 15px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+}
+
+.cardLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.position {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #ff4e4e;
+}
+
+.memberName {
+  font-weight: 600;
+}
+
+.thLevel {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+/* HDV Icons */
+.thImg {
+  width: 45px;
+}
+
+@media (max-width: 900px) {
+
+  .container {
+    flex-direction: column;
+    height: auto; /* IMPORTANT */
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .gdcGrid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .clanBox {
+    width: 100%;
+  }
+}
